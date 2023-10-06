@@ -24,146 +24,148 @@ const Banner = () => {
 
     return (
         <>
-            <div className='container mx-auto bgBannerImg_1'>
+            <div className='bgBannerImg_1'>
+                <div className='container mx-auto '>
 
 
 
-                <Swiper
-                    spaceBetween={30}
-                    centeredSlides={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    navigation={true}
-                    modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper lg:mt-6"
-                >
-                    <SwiperSlide>
+                    <Swiper
+                        spaceBetween={30}
+                        centeredSlides={true}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        navigation={true}
+                        modules={[Autoplay, Pagination, Navigation]}
+                        className="mySwiper lg:mt-6"
+                    >
+                        <SwiperSlide>
 
-                        <div className='flex  items-center banner_img rounded-[30px] w-full'>
-                            <div className='lg:px-[50px] px-5 my-[100px]'>
+                            <div className='flex  items-center banner_img rounded-[30px] w-full'>
+                                <div className='lg:px-[50px] px-5 my-[100px]'>
 
-                                <p className='text-[16px] font-medium text-white '>
-                                    Little Test Big Testy
-                                </p>
-                                <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
-                                    Indian Restaurant and Takeaway
-                                </h1>
-                                <p className='my-5 lg:w-[500px] text-white'>
-                                    Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
-                                </p>
+                                    <p className='text-[16px] font-medium text-white '>
+                                        Little Test Big Testy
+                                    </p>
+                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                        Indian Restaurant and Takeaway
+                                    </h1>
+                                    <p className='my-5 lg:w-[500px] text-white'>
+                                        Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
+                                    </p>
 
-                                <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                    <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
+                        </SwiperSlide>
 
 
-                    <SwiperSlide>
-                        <div className='flex  items-center banner_img2 rounded-[30px] w-full'>
-                            <div className='lg:px-[50px] px-5 my-[100px]'>
-                                <p className='text-[16px] font-medium text-white '>
-                                    Little Test Big Testy
-                                </p>
-                                <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
-                                    Indian Restaurant and Takeaway
-                                </h1>
-                                <p className='my-5 lg:w-[500px] text-white'>
-                                    Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
-                                </p>
+                        <SwiperSlide>
+                            <div className='flex  items-center banner_img2 rounded-[30px] w-full'>
+                                <div className='lg:px-[50px] px-5 my-[100px]'>
+                                    <p className='text-[16px] font-medium text-white '>
+                                        Little Test Big Testy
+                                    </p>
+                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                        Indian Restaurant and Takeaway
+                                    </h1>
+                                    <p className='my-5 lg:w-[500px] text-white'>
+                                        Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
+                                    </p>
 
-                                <button class="custom-btn btn-7 w-[130px] h-[40px] font-semibold ml-0"><span>CHECK MENU</span></button>
+                                    <button class="custom-btn btn-7 w-[130px] h-[40px] font-semibold ml-0"><span>CHECK MENU</span></button>
+                                </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
+                        </SwiperSlide>
+                        <SwiperSlide>
 
-                        <div className='flex  items-center banner_img3 rounded-[30px] w-full'>
-                            <div className='lg:px-[50px] px-5 my-[100px]'>
-                                <p className='text-[16px] font-medium text-white '>
-                                    Little Test Big Testy
-                                </p>
-                                <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
-                                    Indian Restaurant and Takeaway
-                                </h1>
-                                <p className='my-5 lg:w-[500px] text-white'>
-                                    Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
-                                </p>
+                            <div className='flex  items-center banner_img3 rounded-[30px] w-full'>
+                                <div className='lg:px-[50px] px-5 my-[100px]'>
+                                    <p className='text-[16px] font-medium text-white '>
+                                        Little Test Big Testy
+                                    </p>
+                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                        Indian Restaurant and Takeaway
+                                    </h1>
+                                    <p className='my-5 lg:w-[500px] text-white'>
+                                        Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
+                                    </p>
 
-                                <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                    <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className='flex  items-center banner_img4 rounded-[30px] w-full'>
-                            <div className='lg:px-[50px] px-5 my-[100px]'>
-                                <p className='text-[16px] font-medium text-white '>
-                                    Little Test Big Testy
-                                </p>
-                                <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
-                                    Indian Restaurant and Takeaway
-                                </h1>
-                                <p className='my-5 lg:w-[500px] text-white'>
-                                    Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
-                                </p>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='flex  items-center banner_img4 rounded-[30px] w-full'>
+                                <div className='lg:px-[50px] px-5 my-[100px]'>
+                                    <p className='text-[16px] font-medium text-white '>
+                                        Little Test Big Testy
+                                    </p>
+                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                        Indian Restaurant and Takeaway
+                                    </h1>
+                                    <p className='my-5 lg:w-[500px] text-white'>
+                                        Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
+                                    </p>
 
-                                <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                    <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className='flex  items-center banner_img5 rounded-[30px] w-full'>
-                            <div className='lg:px-[50px] px-5 my-[100px]'>
-                                <p className='text-[16px] font-medium text-white '>
-                                    Little Test Big Testy
-                                </p>
-                                <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
-                                    Indian Restaurant and Takeaway
-                                </h1>
-                                <p className='my-5 lg:w-[500px] text-white'>
-                                    Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
-                                </p>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='flex  items-center banner_img5 rounded-[30px] w-full'>
+                                <div className='lg:px-[50px] px-5 my-[100px]'>
+                                    <p className='text-[16px] font-medium text-white '>
+                                        Little Test Big Testy
+                                    </p>
+                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                        Indian Restaurant and Takeaway
+                                    </h1>
+                                    <p className='my-5 lg:w-[500px] text-white'>
+                                        Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
+                                    </p>
 
-                                <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                    <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='rounded-[20px]'>
-                        <div className='flex  items-center banner_img6 rounded-[30px] w-full'>
-                            <div className='lg:px-[50px] px-5 my-[100px]'>
-                                <p className='text-[16px] font-medium text-white '>
-                                    Little Test Big Testy
-                                </p>
-                                <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
-                                    Indian Restaurant and Takeaway
-                                </h1>
-                                <p className='my-5 lg:w-[500px] text-white'>
-                                    Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
-                                </p>
+                        </SwiperSlide>
+                        <SwiperSlide className='rounded-[20px]'>
+                            <div className='flex  items-center banner_img6 rounded-[30px] w-full'>
+                                <div className='lg:px-[50px] px-5 my-[100px]'>
+                                    <p className='text-[16px] font-medium text-white '>
+                                        Little Test Big Testy
+                                    </p>
+                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                        Indian Restaurant and Takeaway
+                                    </h1>
+                                    <p className='my-5 lg:w-[500px] text-white'>
+                                        Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
+                                    </p>
 
-                                <button class="custom-btn btn-7 w-[130px] h-[40px] "><span>CHECK MENU</span></button>
+                                    <button class="custom-btn btn-7 w-[130px] h-[40px] "><span>CHECK MENU</span></button>
+                                </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
+                        </SwiperSlide>
 
-                </Swiper>
-
+                    </Swiper>
 
 
-                <div className='mt-[100px] bg_imgCall rounded-[20px] relative lg:top-[90px] bg-gradient-to-r from-[#FF78C4] to-fuchsia-500'>
-                    <p className='p-[50px] text-[30px] font-semibold   text-white flex justify-center items-center gap-5'> <button className=''><IoIosCall className='w-[40px] relative  hover:-top-5 h-[40px]' /></button> Call Now On +44 161 973 3966 For Order Food or Book Table</p>
 
+                    <div className='mt-[100px] bg_imgCall rounded-[20px] relative lg:top-[90px] bg-gradient-to-r from-[#FF78C4] to-fuchsia-500'>
+                        <p className='p-[50px] text-[30px] font-semibold   text-white flex justify-center items-center gap-5'> <button className=''><IoIosCall className='w-[40px] relative  hover:-top-5 h-[40px]' /></button> Call Now On +44 161 973 3966 For Order Food or Book Table</p>
+
+
+
+
+                    </div>
 
 
 
                 </div>
-
-
-
             </div>
 
 
