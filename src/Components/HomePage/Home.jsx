@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
 import Menus from './Menus';
+import PopularCourses from './PopularCourses';
 
 const Home = () => {
     return (
@@ -10,6 +11,8 @@ const Home = () => {
                 <Banner />
 
                 <Menus />
+
+                <PopularCourses />
 
             </div>
 

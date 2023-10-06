@@ -290,6 +290,47 @@
 
 }
 
+.bg_imgCall {
+    background-image: url(../../assets/Images/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+
+}
+.bgBannerImg_1 {
+    background-image: url(../../assets/Images/bg33.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+
+}
+.PerfectImgBanner_2 {
+    background-image: url(../../assets/Images/bg44.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+
+}
+.bg_popularSection {
+    background-image: url(../../assets/Images/bg99.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+
+}
+.BgNavbar {
+    background-image: url(../../assets/Images/bg55.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+
+}
+
 
 
 /*  =====================================================================

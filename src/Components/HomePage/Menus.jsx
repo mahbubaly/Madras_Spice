@@ -10,38 +10,38 @@ import '../SharedPages/Style.css'
 const Menus = () => {
     return (
         <>
-            <div className='container mx-auto '>
+            <div className='container mx-auto PerfectImgBanner_2'>
 
                 <div className='mt-[70px] border-b-[2px] rounded-[8px] lg:w-[500px] mx-auto'>
-                    <p className='text-center text-[35px] font-semibold italic '>The Perfect  <span className='text-white'>Offer For You</span></p>
+                    <p className='text-center text-[35px] font-semibold  '>The Perfect  <span className='text-white'>Offer For You</span></p>
                     <p className='text-xl text-center text-amber-200 mb-[10px] mt-[15px] uppercase'>FROM OUR MASTER CHEF</p>
                 </div>
 
 
 
                 <div className='mt-[100px] lg:flex gap-[30px] justify-center '>
-                    <div className='bg-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[322px] p-[30px]'>
+                    <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  p-[30px]'>
 
-                        <img src={food1} className='rounded-[50%] mx-auto lg:w-[250px] h-[250px]' alt="" />
+                        <img src={food1} className='rounded-[50%] mx-auto lg:w-[250px] lg:h-[250px]' alt="" />
 
-                        <h1 className='text-[24px] font-semibold mt-[20px]'>Balti Eotica</h1>
+                        <h1 className='text-[24px] font-semibold mt-[20px] text-amber-200'>Balti Eotica</h1>
                         <p className='text-[16px] mt-[10px] font-light'>Cooked with tandoori chicken, lamb tikka, chicken tikka & king prawn, medium spiced balti sauce.</p>
 
                     </div>
 
-                    <div className='bg-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[322px] my-[30px] lg:my-0 p-[30px]'>
+                    <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  my-[30px] lg:my-0 p-[30px]'>
 
-                        <img src={food2} className='rounded-[50%]  mx-auto lg:w-[250px] h-[250px]' alt="" />
+                        <img src={food2} className='rounded-[50%]  mx-auto lg:w-[250px] lg:h-[250px]' alt="" />
 
-                        <h1 className='text-[24px] font-semibold mt-[20px]'>Shashlik Korahi</h1>
+                        <h1 className='text-[24px] font-semibold mt-[20px] text-amber-200'>Shashlik Korahi</h1>
                         <p className='text-[16px] mt-[10px] font-light'>Tender diced chicken tikka places cooked with barbecued tomatoes, onions & capsicum, Served in a thick spicy sauce, chef secret spices & herbs.</p>
 
                     </div>
-                    <div className='bg-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[322px] p-[30px]'>
+                    <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  p-[30px]'>
 
-                        <img src={food3} className='rounded-[50%] mx-auto lg:w-[250px] h-[250px]' alt="" />
+                        <img src={food3} className='rounded-[50%] mx-auto lg:w-[250px] lg:h-[250px]' alt="" />
 
-                        <h1 className='text-[24px] font-semibold mt-[20px]'>Hyderabadi Ghost</h1>
+                        <h1 className='text-[24px] font-semibold mt-[20px] text-amber-200'>Hyderabadi Ghost</h1>
                         <p className='text-[16px] mt-[10px] font-light'>Lamb cooked in very special spices with spinach & paneer.</p>
 
                     </div>
@@ -294,7 +294,7 @@ const Menus = () => {
 
                                 </h1>
 
-                                <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>------------------------------------------------------------------------------------</p>
+                                <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------------------------------</p>
 
 
                                 <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 10.95</p>
@@ -313,7 +313,7 @@ const Menus = () => {
 
                                 </h1>
 
-                                <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>------------------------------------------------------------------------------------</p>
+                                <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------------------------------</p>
 
 
                                 <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 11.95</p>
@@ -333,7 +333,7 @@ const Menus = () => {
 
                                 </h1>
 
-                                <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>------------------------------------------------------------------------------------</p>
+                                <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------------------------------------</p>
 
 
                                 <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
@@ -352,7 +352,7 @@ const Menus = () => {
 
                                 </h1>
 
-                                <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>------------------------------------------------------------------------------------</p>
+                                <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>----------------------------------------------------------------------------------------</p>
 
 
                                 <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>

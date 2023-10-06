@@ -8,7 +8,7 @@ const LayerOutlet = () => {
     return (
         <>
 
-            <div className='bg-gradient-to-r from-[#FF78C4] to-fuchsia-500 '>
+            <div className=' '>
                 <Navbar />
                 <Outlet />
                 <Footer />

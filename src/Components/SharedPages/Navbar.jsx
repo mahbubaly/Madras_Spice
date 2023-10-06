@@ -68,8 +68,8 @@ const Navbar = () => {
     return (
         <>
 
-            <div className='container mx-auto  ' >
-                <div className='flex justify-between'>
+            <div className='container mx-auto bgBannerImg_1 ' >
+                <div className='flex justify-between mt-[10px]'>
                     <div className='flex  mobile_gap   items-center'>
                         <div>
                             <Link className='text-[black] font-bold italic text-[18px] lg:text-[30px]  '>Madras <span className='text-white'>Spice</span></Link>
