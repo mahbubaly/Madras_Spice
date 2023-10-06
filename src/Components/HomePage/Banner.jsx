@@ -57,7 +57,7 @@ const Banner = () => {
                                     Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                 </p>
 
-                                <button class="custom-btn btn-7"><span>CHECK MENU</span></button>
+                                <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -76,7 +76,7 @@ const Banner = () => {
                                     Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                 </p>
 
-                                <button class="custom-btn btn-7"><span>CHECK MENU</span></button>
+                                <button class="custom-btn btn-7 w-[130px] h-[40px] font-semibold ml-0"><span>CHECK MENU</span></button>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -94,7 +94,7 @@ const Banner = () => {
                                     Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                 </p>
 
-                                <button class="custom-btn btn-7"><span>CHECK MENU</span></button>
+                                <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -111,7 +111,7 @@ const Banner = () => {
                                     Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                 </p>
 
-                                <button class="custom-btn btn-7"><span>CHECK MENU</span></button>
+                                <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -128,7 +128,7 @@ const Banner = () => {
                                     Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                 </p>
 
-                                <button class="custom-btn btn-7"><span>CHECK MENU</span></button>
+                                <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -145,7 +145,7 @@ const Banner = () => {
                                     Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                 </p>
 
-                                <button class="custom-btn btn-7"><span>CHECK MENU</span></button>
+                                <button class="custom-btn btn-7 w-[130px] h-[40px] "><span>CHECK MENU</span></button>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -153,7 +153,7 @@ const Banner = () => {
                 </Swiper>
 
                 <div className='mt-[100px] '>
-                    <p className='p-[50px] text-[30px] font-semibold rounded-[20px] bg-gradient-to-r from-sky-500 to-indigo-600 text-amber-200 flex justify-center items-center gap-5'> <IoIosCall className='w-[40px] h-[40px]' /> Call Now On +44 161 973 3966 For Order Food or Book Table</p>
+                    <p className='p-[50px] text-[30px] font-semibold rounded-[20px] bg-gradient-to-r from-sky-500 to-indigo-600 text-amber-200 flex justify-center items-center gap-5'> <button className=''><IoIosCall className='w-[40px] relative  hover:-top-5 h-[40px]' /></button> Call Now On +44 161 973 3966 For Order Food or Book Table</p>
                 </div>
 
 
