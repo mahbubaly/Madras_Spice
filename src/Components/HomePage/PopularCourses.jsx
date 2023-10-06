@@ -10,9 +10,9 @@ const PopularCourses = () => {
         <>
             <div className='container mx-auto bg_popularSection'>
 
-                <div className='mt-[70px] border-b-[2px] rounded-[8px] lg:w-[500px] mx-auto'>
+                <div className='mt-[70px] border-b-[2px]  border-orange-600 rounded-[8px] lg:w-[500px] mx-auto'>
                     <p className='text-center text-[35px] font-semibold  '>Popular   <span className='text-orange-600'>main cource</span></p>
-                    <p className='text-xl text-center text-amber-200 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
+                    <p className='text-xl text-center text-amber-500 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
                 </div>
                 <p className='mt-[20px] font-light w-[600px] text-center mx-auto'>Experience the culinary delights of our menu,crafted by our talented chefs using only the freshest and highest-quality ingredients, guaranteeing a satisfying and memorable meal.</p>
 

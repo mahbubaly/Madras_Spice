@@ -40,7 +40,7 @@ const Banner = () => {
                     }}
                     navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper"
+                    className="mySwiper lg:mt-6"
                 >
                     <SwiperSlide>
 
@@ -154,7 +154,7 @@ const Banner = () => {
 
 
 
-                <div className='mt-[100px] bg_imgCall rounded-[20px] bg-gradient-to-r from-[#FF78C4] to-fuchsia-500'>
+                <div className='mt-[100px] bg_imgCall rounded-[20px] relative lg:top-[90px] bg-gradient-to-r from-[#FF78C4] to-fuchsia-500'>
                     <p className='p-[50px] text-[30px] font-semibold   text-white flex justify-center items-center gap-5'> <button className=''><IoIosCall className='w-[40px] relative  hover:-top-5 h-[40px]' /></button> Call Now On +44 161 973 3966 For Order Food or Book Table</p>
 
 

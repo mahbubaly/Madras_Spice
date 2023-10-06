@@ -68,7 +68,7 @@ const Navbar = () => {
     return (
         <>
 
-            <div className='container mx-auto bgBannerImg_1 ' >
+            <div className='container mx-auto bgBannerImg_1  ' >
                 <div className='flex justify-between mt-[10px]'>
                     <div className='flex  mobile_gap   items-center'>
                         <div>

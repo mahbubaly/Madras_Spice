@@ -51,8 +51,8 @@ const Menus = () => {
 
                 <div className='mt-[100px] flex gap-[60px] items-center'>
                     <div className='lg:w-[600px]'>
-                        <h2 className='text-[40px] font-semibold text-white '>Our Awesome Restaurant</h2>
-                        <p className='flex items-end mt-[10px] gap-[4px] text-amber-200 text-[24px]'>Authentic Indian flavors <hr className='w-[80px] rounded-[2px]  border-amber-200 border-[1px]' /></p>
+                        <h2 className='text-[40px] font-semibold text-black '>Our Awesome Restaurant</h2>
+                        <p className='flex items-end mt-[10px] gap-[4px] text-orange-700 text-[24px]'>Authentic Indian flavors <hr className='w-[80px] rounded-[2px]  border-amber-200 border-[1px]' /></p>
 
                         <p className='mt-5 w-[350px] font-light'>Experience the flavors of Madras at Madras Spice, located in Sale Moor, Manchester. Our menu features a wide variety of authentic dishes made with fresh ingredients and bold spices. Our friendly staff will ensure you have a memorable dining experience. Stop by for lunch or dinner. We can't wait to see you at Madras Spice!</p>
 
@@ -73,9 +73,9 @@ const Menus = () => {
 
                 {/* Tasty Menu */}
 
-                <div className='mt-[100px] border-b-[2px] rounded-[8px]  lg:w-[500px] mx-auto'>
+                <div className='mt-[100px] border-b-[2px] border-orange-600 rounded-[8px]  lg:w-[500px] mx-auto'>
                     <p className='text-center text-[35px] font-semibold  '>Tasty Menu  <span className='text-white'>Today</span></p>
-                    <p className='text-xl text-center text-amber-200 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
+                    <p className='text-xl text-center text-orange-600 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
                 </div>
 
 
