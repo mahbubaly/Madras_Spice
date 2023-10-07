@@ -9,6 +9,7 @@ import {
 import LayerOutlet from './Components/Outlet/LayerOutlet.jsx';
 import ErrorPage from './Components/SharedPages/ErrorPage';
 import Home from './Components/HomePage/Home.jsx';
+import FullMenu from './Components/FullMenu/FullMenu.jsx';
 
 
 
@@ -19,8 +20,12 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path:'/',
+        path: '/',
         element: <Home />
+      },
+      {
+        path: '/menu',
+        element: <FullMenu />
       }
     ]
   },

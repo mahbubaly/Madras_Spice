@@ -15,7 +15,7 @@ const PopularCourses = () => {
                         <p className='text-center text-[35px] font-semibold  '>Popular   <span className='text-orange-600'>main cource</span></p>
                         <p className='text-xl text-center text-amber-500 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
                     </div>
-                    <p className='mt-[20px] font-light w-[600px] text-center mx-auto'>Experience the culinary delights of our menu,crafted by our talented chefs using only the freshest and highest-quality ingredients, guaranteeing a satisfying and memorable meal.</p>
+                    <p className='mt-[20px] font-light lg:w-[600px] text-center mx-auto'>Experience the culinary delights of our menu,crafted by our talented chefs using only the freshest and highest-quality ingredients, guaranteeing a satisfying and memorable meal.</p>
 
 
 
@@ -23,9 +23,9 @@ const PopularCourses = () => {
 
                     <div className='mt-[100px] lg:flex gap-[30px] justify-center '>
                         {/* 1 */}
-                        <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px]  w-[322px]  p-[20px]'>
+                        <div className='bg-black text-white mx-auto shadow-xl hover:shadow-2xl rounded-[10px]  w-[322px]  p-[20px]'>
 
-                            <img src={Chicken1} className='rounded-[100%] mx-auto lg:w-[250px] lg:h-[250px]' alt="" />
+                            <img src={Chicken1} className='rounded-[100%] mx-auto w-[200px]  lg:w-[250px] lg:h-[250px]' alt="" />
 
                             <div className='flex justify-between items-center  mt-[30px] gap-5'>
                                 <h1 className='text-lg font-semibold text-amber-200 '>Chicken Tikka </h1>
@@ -35,9 +35,9 @@ const PopularCourses = () => {
 
                         </div>
                         {/* 2 */}
-                        <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px]  w-[322px]  p-[20px]'>
+                        <div className='bg-black my-[30px] lg:my-0 text-white mx-auto shadow-xl hover:shadow-2xl rounded-[10px]  w-[322px]  p-[20px]'>
 
-                            <img src={Chicken2} className='rounded-[100%] mx-auto lg:w-[250px] lg:h-[250px] ' alt="" />
+                            <img src={Chicken2} className='rounded-[100%] mx-auto w-[200px]  lg:w-[250px] lg:h-[250px] ' alt="" />
 
                             <div className='flex justify-between items-center mt-[20px] gap-6'>
                                 <h1 className='text-[18px] text-amber-200 font-semibold '>Chicken Balti</h1>
@@ -49,9 +49,9 @@ const PopularCourses = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px]  w-[322px]  p-[20px]'>
+                        <div className='bg-black text-white shadow-xl mx-auto hover:shadow-2xl rounded-[10px]  w-[322px]  p-[20px]'>
 
-                            <img src={Chicken3} className='rounded-[100%] mx-auto lg:w-[250px] lg:h-[250px] ' alt="" />
+                            <img src={Chicken3} className='rounded-[100%] mx-autow-[200px]  lg:w-[250px] lg:h-[250px] ' alt="" />
 
                             <div className='flex justify-between items-center mt-[30px] gap-6'>
                                 <h1 className='text-[18px] font-semibold text-amber-200'>Chicken Naga</h1>
@@ -61,9 +61,11 @@ const PopularCourses = () => {
 
                         </div>
 
-                        <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px]  w-[322px]  p-[20px]'>
+                        {/* 4 */}
 
-                            <img src={Chicken4} className='rounded-[100%] mx-auto lg:w-[250px] lg:h-[250px] ' alt="" />
+                        <div className='bg-black mt-[30px] lg:mt-0 mx-auto text-white shadow-xl hover:shadow-2xl rounded-[10px]  w-[322px]  p-[20px]'>
+
+                            <img src={Chicken4} className='rounded-[100%] mx-autow-[200px]  lg:w-[250px] lg:h-[250px] ' alt="" />
 
                             <div className='flex justify-between items-center mt-[20px] gap-6'>
                                 <h1 className='text-[18px] font-semibold text-amber-200'>Chicken Rogan </h1>
@@ -78,6 +80,12 @@ const PopularCourses = () => {
 
                 </div>
             </div>
+
+
+           
+
+
+
 
         </>
     );

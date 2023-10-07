@@ -9,7 +9,7 @@ const Navbar = () => {
 
     const navbar = <>
 
-        <Link to='/'     >
+        <Link to='/' className='mt-5 lg:mt-0' >
 
 
 
@@ -20,7 +20,7 @@ const Navbar = () => {
 
         </Link>
 
-        <Link to='/menu'  >
+        <Link to='/menu' className='my-5 lg:my-0' >
 
 
 
@@ -44,7 +44,7 @@ const Navbar = () => {
 
         </Link>
 
-        <Link to='/contact'     >
+        <Link to='/contact' className='my-5 lg:my-0'  >
 
 
 
@@ -73,7 +73,8 @@ const Navbar = () => {
                     <div className='flex justify-between mt-[10px]'>
                         <div className='flex  mobile_gap   items-center'>
                             <div>
-                                <Link className='text-[black] font-bold italic text-[18px] lg:text-[30px]  '>Madras <span className='text-white'>Spice</span></Link>
+                                <Link className='text-[black] font-bold  text-[18px] lg:text-[30px]  '>Madras <span className='text-white'>Spice</span></Link>
+                                <p className='text-[14px] font-light sm:block hidden'> Experience the flavors of Madras at Madras Spice</p>
                             </div>
 
 
@@ -101,7 +102,7 @@ const Navbar = () => {
 
                             {/* Mobile */}
 
-                            <div className={`block lg:hidden bg-white  lg:col-span-3  absolute lg:static lg:w-auto top-0 left-0 overflow-hidden h-full lg:h-auto duration-500    lg:bg-[transparent] lg:p-0 z-50 ${open ? "w-full  p-5" : "w-0"}`}>
+                            <div className={`block lg:hidden bgBannerImg_1 lg:col-span-3  absolute lg:static lg:w-auto top-0 left-0 overflow-hidden h-full lg:h-auto duration-500    lg:bg-[transparent] lg:p-0 z-50 ${open ? "w-full  p-5" : "w-0"}`}>
 
                                 <div className='flex  justify-between'>
                                     <ul className='flex  flex-col  '>
@@ -112,11 +113,11 @@ const Navbar = () => {
 
                                     </ul>
 
-                                    <FaTimes onClick={() => setOpen(!open)} className='w-[24px] h-[24px] text-primary' />
+                                    <FaTimes onClick={() => setOpen(!open)} className='w-[24px] h-[24px] text-amber-200' />
                                 </div>
                             </div>
 
-                            <button onClick={() => setOpen(!open)} className='block lg:hidden'>{open ? <> </> : <FaBars className='w-[24px] h-[24px] text-primary' />}</button>
+                            <button onClick={() => setOpen(!open)} className='block lg:hidden'>{open ? <> </> : <FaBars className='w-[24px] h-[24px] text-amber-200' />}</button>
                         </div>
                     </div>
 

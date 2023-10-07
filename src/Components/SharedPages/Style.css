@@ -5,6 +5,9 @@
 
 
 
+
+
+
 .custom-btn {
   
     color: #fff;
@@ -241,7 +244,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
 
 }
 
@@ -250,7 +253,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
 
 }
 
@@ -259,7 +262,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
 
 }
 
@@ -268,7 +271,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
 
 }
 
@@ -277,7 +280,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
 
 }
 
@@ -286,7 +289,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
 
 }
 
@@ -295,7 +298,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
 
 }
 .bgBannerImg_1 {
@@ -303,7 +306,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
 
 }
 .PerfectImgBanner_2 {
@@ -311,7 +314,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
 
 }
 .bg_popularSection {
@@ -319,7 +322,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
 
 }
 .BgNavbar {
@@ -327,7 +330,44 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+   
+
+}
+.bgSimplySection {
+    background-image: url(../../assets/Images/fd2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+}
+.menuBg {
+    background-image: url(../../assets/Images/mixYellowBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .7;
+   
+
+}
+.menuTastyFood {
+    background-image: url(../../assets/Images/cuisine-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    
+   
+
+}
+.MainMenu {
+    background-image: url(../../assets/Images/menuBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    
+   
 
 }
 
@@ -347,6 +387,11 @@
         padding: 20px;
 
     }
+    .MarginLeft{
+        margin-left: 20px;
+    
+    }
+    
 
     .mobile_gap {
         gap: 165px;
@@ -358,6 +403,10 @@
         max-width: 375px;
 
     }
+    .MarginLeft{
+        margin-left: 30px;
+    
+    }
 
     .mobile_gap {
         gap: 200px;
@@ -368,6 +417,10 @@
     .container {
         max-width: 425px;
 
+    }
+    .MarginLeft{
+        margin-left: 50px;
+    
     }
 
     .mobile_gap {

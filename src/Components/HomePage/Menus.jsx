@@ -6,6 +6,7 @@ import indian1 from '../../assets/Images/indian cook1.jpg'
 import indian2 from '../../assets/Images/indian3.jpg'
 import indian3 from '../../assets/Images/inidan 2.jpg'
 import '../SharedPages/Style.css'
+import { Link } from 'react-router-dom';
 
 const Menus = () => {
     return (
@@ -13,7 +14,7 @@ const Menus = () => {
             <div className='PerfectImgBanner_2'>
                 <div className='container mx-auto '>
 
-                    <div className='mt-[70px] border-b-[2px] rounded-[8px] lg:w-[500px] mx-auto'>
+                    <div className='mt-[70px] border-b-[2px] rounded-[10px] lg:w-[500px] mx-auto'>
                         <p className='text-center text-[35px] font-semibold  '>The Perfect  <span className='text-white'>Offer For You</span></p>
                         <p className='text-xl text-center text-amber-200 mb-[10px] mt-[15px] uppercase'>FROM OUR MASTER CHEF</p>
                     </div>
@@ -50,22 +51,24 @@ const Menus = () => {
 
                     {/* Our Awesome Restaurant */}
 
-                    <div className='mt-[100px] flex gap-[60px] items-center'>
+                    <div className='mt-[100px] lg:flex gap-[60px] items-center'>
                         <div className='lg:w-[600px]'>
                             <h2 className='text-[40px] font-semibold text-black '>Our Awesome Restaurant</h2>
                             <p className='flex items-end mt-[10px] gap-[4px] text-orange-700 text-[24px]'>Authentic Indian flavors <hr className='w-[80px] rounded-[2px]  border-amber-200 border-[1px]' /></p>
 
-                            <p className='mt-5 w-[350px] font-light'>Experience the flavors of Madras at Madras Spice, located in Sale Moor, Manchester. Our menu features a wide variety of authentic dishes made with fresh ingredients and bold spices. Our friendly staff will ensure you have a memorable dining experience. Stop by for lunch or dinner. We can't wait to see you at Madras Spice!</p>
+                            <p className='mt-5 lg:w-[350px] font-light'>Experience the flavors of Madras at Madras Spice, located in Sale Moor, Manchester. Our menu features a wide variety of authentic dishes made with fresh ingredients and bold spices. Our friendly staff will ensure you have a memorable dining experience. Stop by for lunch or dinner. We can't wait to see you at Madras Spice!</p>
 
                             <button class="custom-btn btn-7 font-semibold ml-0 mt-[20px] w-[130px] h-[40px]"><span>CHECK MENU</span></button>
                         </div>
 
 
-                        <div>
+                        <div className='mt-[30px] lg:mt-0 '>
 
-                            <img src={indian1} className='lg:w-[400px] lg:-ml-[30px] rounded-[10px]' alt="" />
-                            <img src={indian3} className='lg:w-[500px] xl:-mt-[300px] lg:-mt-[250px]  lg:ml-[50px] xl:ml-[100px] rounded-[10px]' alt="" />
-                            <img src={indian2} className='lg:w-[350px] lg:-ml-[100px] -mt-[220px]  rounded-[10px]' alt="" />
+                            <img src={indian1} className='lg:w-[400px] w-[250px] ml-[20px] lg:-ml-[30px] rounded-[10px]' alt="" />
+
+                            <img src={indian3} className='lg:w-[500px] w-[320px] MarginLeft -mt-[180px] xl:-mt-[300px] lg:-mt-[250px]  lg:ml-[50px] xl:ml-[100px] rounded-[10px]' alt="" />
+
+                            <img src={indian2} className='lg:w-[350px] w-[250px] lg:-ml-[100px] -mt-[150px] lg:-mt-[220px]  rounded-[10px]' alt="" />
 
                         </div>
                     </div>
@@ -74,7 +77,7 @@ const Menus = () => {
 
                     {/* Tasty Menu */}
 
-                    <div className='mt-[100px] border-b-[2px] border-orange-600 rounded-[8px]  lg:w-[500px] mx-auto'>
+                    <div className='mt-[100px] border-b-[2px] border-orange-600 rounded-[10px]  lg:w-[500px] mx-auto'>
                         <p className='text-center text-[35px] font-semibold  '>Tasty Menu  <span className='text-white'>Today</span></p>
                         <p className='text-xl text-center text-orange-600 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
                     </div>
@@ -373,7 +376,13 @@ const Menus = () => {
                     </div>
 
                     <div className=' flex justify-center items-center mt-[50px]'>
-                        <button class="custom-btn btn-14 font-semibold  text-[20px] w-[160px] h-[50px] ">Full MENU</button>
+                        <Link to='/menu' onClick={() => {
+                            window.scrollTo(0, 0);
+
+
+
+
+                        }} >  <button class="custom-btn btn-14 font-semibold  text-[20px] w-[160px] h-[50px] ">Full MENU</button></Link>
                     </div>
 
                 </div>

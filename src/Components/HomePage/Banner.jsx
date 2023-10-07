@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import '../SharedPages/Style.css'
 import { IoIosCall } from 'react-icons/io';
 import { Swiper, SwiperSlide, } from 'swiper/react';
@@ -14,12 +14,14 @@ import 'swiper/css/autoplay'
 
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 
 
 
 
 const Banner = () => {
+    
 
 
     return (
@@ -58,7 +60,13 @@ const Banner = () => {
                                         Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                     </p>
 
-                                    <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                    <Link onClick={() => {
+                            window.scrollTo(0, 0);
+
+
+
+
+                        }}  to='/menu' > <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -77,7 +85,13 @@ const Banner = () => {
                                         Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                     </p>
 
-                                    <button class="custom-btn btn-7 w-[130px] h-[40px] font-semibold ml-0"><span>CHECK MENU</span></button>
+                                    <Link onClick={() => {
+                            window.scrollTo(0, 0);
+
+
+
+
+                        }}  to='/menu'> <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -95,7 +109,13 @@ const Banner = () => {
                                         Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                     </p>
 
-                                    <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                    <Link onClick={() => {
+                            window.scrollTo(0, 0);
+
+
+
+
+                        }}  to='/menu'> <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -112,7 +132,13 @@ const Banner = () => {
                                         Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                     </p>
 
-                                    <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                                    <Link onClick={() => {
+                            window.scrollTo(0, 0);
+
+
+
+
+                        }}  to='/menu'> <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -128,8 +154,13 @@ const Banner = () => {
                                     <p className='my-5 lg:w-[500px] text-white'>
                                         Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                     </p>
+                                    <Link onClick={() => {
+                            window.scrollTo(0, 0);
 
-                                    <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+
+
+
+                        }}  to='/menu'> <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -146,7 +177,13 @@ const Banner = () => {
                                         Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                     </p>
 
-                                    <button class="custom-btn btn-7 w-[130px] h-[40px] "><span>CHECK MENU</span></button>
+                                    <Link onClick={() => {
+                            window.scrollTo(0, 0);
+
+
+
+
+                        }}  to='/menu'> <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
