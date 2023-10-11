@@ -430,6 +430,26 @@
    
 
 }
+.aboutUsBG {
+    background-image: url(../../assets/Images/aboutRestaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+   
+
+}
+.choiceUs {
+    background-image: url(../../assets/Images/choiceUs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+   
+
+}
 
 
 
