@@ -58,7 +58,10 @@ const Menus = () => {
 
                             <p className='mt-5 lg:w-[350px] font-light'>Experience the flavors of Madras at Madras Spice, located in Sale Moor, Manchester. Our menu features a wide variety of authentic dishes made with fresh ingredients and bold spices. Our friendly staff will ensure you have a memorable dining experience. Stop by for lunch or dinner. We can't wait to see you at Madras Spice!</p>
 
-                            <button class="custom-btn btn-7 font-semibold ml-0 mt-[20px] w-[130px] h-[40px]"><span>CHECK MENU</span></button>
+                          
+
+                            <Link to='/menu' onClick={() => {
+                            window.scrollTo(0, 0);}}>   <button className="custom-btn btn-7 font-semibold ml-0 mt-[20px] w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                         </div>
 
 
@@ -382,7 +385,7 @@ const Menus = () => {
 
 
 
-                        }} >  <button class="custom-btn btn-14 font-semibold  text-[20px] w-[160px] h-[50px] ">Full MENU</button></Link>
+                        }} >  <button className="custom-btn btn-14 font-semibold  text-[20px] w-[160px] h-[50px] ">Full MENU</button></Link>
                     </div>
 
                 </div>

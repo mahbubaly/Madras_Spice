@@ -333,6 +333,14 @@
    
 
 }
+.MenuResBg {
+    background-image: url(../../assets/Images/43362.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+}
 .bgSimplySection {
     background-image: url(../../assets/Images/fd2.jpg);
     background-size: cover;
@@ -346,7 +354,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: .7;
+   
    
 
 }
@@ -355,7 +363,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: black;
+
     
    
 
@@ -365,11 +373,65 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: black;
+  
     
    
 
 }
+.BiryaniMenu {
+    background-image: url(../../assets/Images/bir2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+   
+
+}
+.ChatBg {
+    background-image: url(../../assets/Images/chatni2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+   
+
+}
+.ChatBg2 {
+    background-image: url(../../assets/Images/food12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+   
+
+}
+
+.contactPage {
+    background-image: url(../../assets/Images/contactPage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+   
+
+}
+
+.map {
+    background-image: url(../../assets/Images/map.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+   
+
+}
+
+
 
 
 

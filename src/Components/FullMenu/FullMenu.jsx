@@ -1,4 +1,6 @@
 import React from 'react';
+import TandooriCurry from './TandooriCurry';
+import BiryaniDishes from './BiryaniDishes';
 
 const FullMenu = () => {
     return (
@@ -35,13 +37,13 @@ const FullMenu = () => {
                         <div className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className=' text-[14px] lg:text-[18px] flex items-center font-medium'>Plain Papadoms
+                                    <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Plain Papadoms
                                     </h1>
 
                                     <p className='lg:block hidden text-gray-500 lg:ml-3 ml-2'>---------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 0.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 0.50</p>
                                 </div>
 
 
@@ -52,7 +54,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Spicy Papadoms
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Spicy Papadoms
                                     </h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
@@ -69,7 +71,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Chutney Tray
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Chutney Tray
 
                                     </h1>
 
@@ -87,7 +89,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'>Onion/Mango/MInt/Red</h1>
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Onion/Mango/MInt/Red</h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-------------------------------------------------------------------------------------</p>
 
@@ -99,10 +101,10 @@ const FullMenu = () => {
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[30px] pb-[50px]'>
+                        <div className='mt-[30px] pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> LIme Pickle
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> LIme Pickle
 
                                     </h1>
 
@@ -136,13 +138,13 @@ const FullMenu = () => {
                         <div className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className=' text-[14px] lg:text-[18px] flex items-center font-medium'>Chicken Tikka
+                                    <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken Tikka
                                     </h1>
 
                                     <p className='lg:block hidden text-gray-500 lg:ml-3 ml-2'>---------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
                                 </div>
 
 
@@ -153,7 +155,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Tandoori Chicken
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Tandoori Chicken
                                     </h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
@@ -171,7 +173,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Lamb Tikka
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Lamb Tikka
 
                                     </h1>
 
@@ -189,7 +191,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'>Lamb Chops</h1>
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Lamb Chops</h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-------------------------------------------------------------------------------------</p>
 
@@ -204,7 +206,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Garlic Chicken Tikka
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Garlic Chicken Tikka
 
                                     </h1>
 
@@ -222,7 +224,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Chicken Pakora
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Chicken Pakora
 
                                     </h1>
 
@@ -240,7 +242,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Chicken Chat
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Chicken Chat
 
                                     </h1>
 
@@ -258,7 +260,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Cheesy Chicken
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Cheesy Chicken
 
                                     </h1>
 
@@ -276,7 +278,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Sweet Chilli Chicken
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Sweet Chilli Chicken
 
                                     </h1>
 
@@ -294,7 +296,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Shashlik Tikka Chicken
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Shashlik Tikka Chicken
 
                                     </h1>
 
@@ -312,7 +314,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Shashlik Tikka Lamb
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Shashlik Tikka Lamb
 
                                     </h1>
 
@@ -331,10 +333,10 @@ const FullMenu = () => {
                         {/* 12 */}
 
 
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div className='mt-[30px] pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Mix Kebab
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Mix Kebab
 
 
                                     </h1>
@@ -352,7 +354,7 @@ const FullMenu = () => {
                             <div className='mt-[30px]'>
                                 <div >
                                     <div className='flex items-center justify-between'>
-                                        <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'>Sheek Kebab
+                                        <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Sheek Kebab
 
                                         </h1>
 
@@ -370,7 +372,7 @@ const FullMenu = () => {
                             <div className='mt-[30px]'>
                                 <div >
                                     <div className='flex items-center justify-between'>
-                                        <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'>Shami Kebab
+                                        <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Shami Kebab
 
                                         </h1>
 
@@ -390,7 +392,7 @@ const FullMenu = () => {
                             <div className='mt-[30px]'>
                                 <div >
                                     <div className='flex items-center justify-between'>
-                                        <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'>Meat Samosa
+                                        <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Meat Samosa
 
 
                                         </h1>
@@ -411,7 +413,7 @@ const FullMenu = () => {
                             <div className='mt-[30px]'>
                                 <div >
                                     <div className='flex items-center justify-between'>
-                                        <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'>Rashmi Kebab
+                                        <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Rashmi Kebab
 
                                         </h1>
 
@@ -452,13 +454,13 @@ const FullMenu = () => {
                         <div className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className=' text-[14px] lg:text-[18px] flex items-center font-medium'>Onion Bhaji
+                                    <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Onion Bhaji
                                     </h1>
 
                                     <p className='lg:block hidden text-gray-500 lg:ml-3 ml-2'>---------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
                                 </div>
 
 
@@ -469,13 +471,13 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Veg Samosa
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Veg Samosa
                                     </h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
                                 </div>
 
 
@@ -486,14 +488,14 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Veg Pakora
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Veg Pakora
 
                                     </h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
                                 </div>
 
 
@@ -504,12 +506,12 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'>Garlic Mushroom</h1>
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Garlic Mushroom</h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
                                 </div>
 
                             </div>
@@ -519,13 +521,13 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Mulligatawny Soup
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Mulligatawny Soup
                                     </h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
                                 </div>
 
 
@@ -536,14 +538,14 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Paneer Tikka
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Paneer Tikka
 
                                     </h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
                                 </div>
 
 
@@ -554,7 +556,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Aloo Chat
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Aloo Chat
 
                                     </h1>
 
@@ -572,7 +574,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Veg Chat
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Veg Chat
 
 
                                     </h1>
@@ -591,7 +593,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Sweet Chilli Chicken
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Sweet Chilli Chicken
 
                                     </h1>
 
@@ -606,10 +608,10 @@ const FullMenu = () => {
                         </div>
 
                         {/* 10 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div className='mt-[30px] pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Cheesy Mashroom
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Cheesy Mashroom
 
                                     </h1>
 
@@ -648,14 +650,14 @@ const FullMenu = () => {
                         <div className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className=' text-[14px] lg:text-[18px] flex items-center font-medium'>Fish Tikka
+                                    <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Fish Tikka
 
                                     </h1>
 
                                     <p className='lg:block hidden text-gray-500 lg:ml-3 ml-2'>---------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 3.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 3.95</p>
                                 </div>
 
 
@@ -666,13 +668,13 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Fish Shashlik
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Fish Shashlik
                                     </h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 4.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 4.50</p>
                                 </div>
 
 
@@ -683,7 +685,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Tandoori King Prawn
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Tandoori King Prawn
 
 
                                     </h1>
@@ -691,7 +693,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
                                 </div>
 
 
@@ -702,12 +704,12 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'>King Prawn Puri</h1>
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>King Prawn Puri</h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 4.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 4.50</p>
                                 </div>
 
                             </div>
@@ -717,14 +719,14 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Prawn Puri
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Prawn Puri
 
                                     </h1>
 
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 3.50
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 3.50
                                     </p>
                                 </div>
 
@@ -736,7 +738,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> KIng Prawn Puri
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> KIng Prawn Puri
 
 
                                     </h1>
@@ -744,7 +746,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[14px]  lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px]  lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
                                 </div>
 
 
@@ -755,7 +757,7 @@ const FullMenu = () => {
                         <div className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> KIng Prawn Butterfly
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> KIng Prawn Butterfly
 
 
                                     </h1>
@@ -771,10 +773,10 @@ const FullMenu = () => {
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div className='mt-[30px] pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
-                                    <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Salmon Tikka
+                                    <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Salmon Tikka
 
 
                                     </h1>
@@ -789,7 +791,7 @@ const FullMenu = () => {
                             </div>
                         </div>
 
-                      
+
 
 
 
@@ -803,8 +805,19 @@ const FullMenu = () => {
                     </div>
 
 
+
+
+
+
+
+
                 </div>
             </div>
+
+            <TandooriCurry />
+
+
+            <BiryaniDishes />
 
         </>
     );

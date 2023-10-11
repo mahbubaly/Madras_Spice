@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
 
-            <div className='bgSimplySection lg:py-[80px] '>
+            <div className='bgSimplySection p-5 lg:py-[80px] '>
                 <div className='container mx-auto opacity-80   bg-black rounded-[20px]  '>
                     <div className='lg:w-[800px]  mx-auto p-5 lg:p-[50px]    '>
                         <p className='text-[18px] text-center text-amber-200 lg:w-[350px] rounded-[10px] mx-auto  border-b-2'>SIMPLY BUT DELICIOUS EXPERIENCE</p>
@@ -52,7 +52,7 @@ const Footer = () => {
 
 
                         </div>
-                        <div className=' lg:pl-[80px] lg:pt-[50px] lg:border-s-2 mt-[30px] lg:mt-0'>
+                        <div className=' lg:pl-[80px] lg:pt-[50px] lg:border-s-2 border-amber-200 mt-[30px] lg:mt-0'>
 
                             <h1 className='text-[24px] font-semibold border-amber-300 text-amber-300 border-b-2 rounded w-[0px] hover:w-[100px] duration-1000'>Contact</h1>
 
@@ -84,6 +84,8 @@ const Footer = () => {
                         </div>
                         <div>
                             <p>Developed By | <Link to='https://www.linkedin.com/in/md-mahbubur-rahman-mahbub-2a3a7b248/'> Mahbubur Rahman   </Link>
+                            {/* <p>B.sc in Computer science Engineering</p>
+                            <p>Call: 01714227495</p> */}
 
                             </p>
                         </div>

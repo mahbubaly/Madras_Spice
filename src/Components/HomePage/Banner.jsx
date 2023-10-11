@@ -26,7 +26,7 @@ const Banner = () => {
 
     return (
         <>
-            <div className='bgBannerImg_1'>
+            <div className='bgBannerImg_1 z-10'>
                 <div className='container mx-auto '>
 
 
@@ -66,7 +66,7 @@ const Banner = () => {
 
 
 
-                        }}  to='/menu' > <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                        }}  to='/menu' > <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -91,7 +91,7 @@ const Banner = () => {
 
 
 
-                        }}  to='/menu'> <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                        }}  to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -115,7 +115,7 @@ const Banner = () => {
 
 
 
-                        }}  to='/menu'> <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                        }}  to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -138,7 +138,7 @@ const Banner = () => {
 
 
 
-                        }}  to='/menu'> <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                        }}  to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -160,7 +160,7 @@ const Banner = () => {
 
 
 
-                        }}  to='/menu'> <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                        }}  to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -183,7 +183,7 @@ const Banner = () => {
 
 
 
-                        }}  to='/menu'> <button class="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                        }}  to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>

@@ -10,6 +10,8 @@ import LayerOutlet from './Components/Outlet/LayerOutlet.jsx';
 import ErrorPage from './Components/SharedPages/ErrorPage';
 import Home from './Components/HomePage/Home.jsx';
 import FullMenu from './Components/FullMenu/FullMenu.jsx';
+import Contact from './Components/Contact/Contact.jsx';
+import AboutUs from './Components/AboutUs/AboutUs.jsx';
 
 
 
@@ -26,6 +28,15 @@ const router = createBrowserRouter([
       {
         path: '/menu',
         element: <FullMenu />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
+      }
+      ,
+      {
+        path: '/about-us',
+        element: <AboutUs />
       }
     ]
   },
