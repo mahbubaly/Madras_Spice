@@ -10,9 +10,11 @@ const Contact = () => {
         <>
             <div className='contactPage lg:h-[700px]'>
 
-                <div className='container  mx-auto border-b-2 border-black lg:w-[500px] rounded-[10px]'>
-                    <h1 className='text-center text-[45px] font-semibold text-black lg:mt-[200px]'>CONTACT US</h1>
-                    <p className='lg:text-center font-light text-black '>Experience the flavors of Madras at Madras Spice</p>
+                <div className='container   mx-auto lg:border-b-2 border-black lg:w-[500px] rounded-[10px]'>
+                    <div className='py-5 lg:py-0' >
+                        <h1 className='text-center text-[28px] lg:text-[45px] font-semibold text-white lg:text-black lg:mt-[200px]'>CONTACT US</h1>
+                        <p className='lg:text-center font-light text-white lg:text-black text-center '>Experience the flavors of Madras at Madras Spice</p>
+                    </div>
 
 
                 </div>
@@ -22,7 +24,7 @@ const Contact = () => {
 
             <div className='map '>
                 <div className='  container mx-auto'>
-                    <h1 className='text-[35px] mt-[70px] font-semibold text-center'>
+                    <h1 className='lg:text-[45px] text-[28px] mt-[20px] lg:mt-[70px] font-semibold text-center'>
                         Please Get In Touch
                     </h1>
 
@@ -49,7 +51,7 @@ const Contact = () => {
                         </div>
 
                         <div className='  mt-[50px]'>
-                            <a type='submit' href='#' className="custom-btn flex justify-center btn-14 font-semibold  text-[20px]  h-[50px] ">Submit</a>
+                            <a type='submit' href='#' className="custom-btn flex justify-center btn-14 font-semibold  text-[20px] lg:w-[130px] w-full text-center h-[48px] lg:h-[50px] ">Submit</a>
 
                         </div>
                     </form>
@@ -82,7 +84,7 @@ const Contact = () => {
 
                         </div>
 
-                        <div className='bg-black text-white flex items-center  shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  p-[30px]'>
+                        <div className='bg-black my-5 lg:my-0 text-white flex items-center  shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  p-[30px]'>
 
                             <div className='flex gap-[10px] items-center  '>
                                 <HiMiniDevicePhoneMobile className='w-[80px] h-[100px] text-[#fa6e3a]' />
@@ -105,27 +107,27 @@ const Contact = () => {
 
                                 <div>
                                     <div className='flex justify-between gap-5 w-[220px] items-center'>
-                                        <h1 className='text-[18px] '> Mon: </h1>
+                                        <h1 className='text-[16px]  lg:text-[18px] '> Mon: </h1>
                                         <p className='text-[16px]'> 	5.00 - 11.00</p>
                                     </div>
                                     <div className='flex justify-between gap-5 w-[220px] items-center'>
-                                        <h1 className='text-[18px] '> Tue: </h1>
+                                        <h1 className='text-[16px]  lg:text-[18px] '> Tue: </h1>
                                         <p className='text-[16px]'>Closed</p>
                                     </div>
                                     <div className='flex justify-between gap-4 w-[220px] items-center'>
-                                        <h1 className='text-[18px] '> Wed - Thu: </h1>
+                                        <h1 className='text-[16px]  lg:text-[18px] '> Wed - Thu: </h1>
                                         <p className='text-[16px]'>5.00 - 11.00</p>
                                     </div>
                                     <div className='flex justify-between gap-5 w-[220px] items-center'>
-                                        <h1 className='text-[18px] '> Fri - Sat: </h1>
+                                        <h1 className='text-[16px]  lg:text-[18px]  '> Fri - Sat: </h1>
                                         <p className='text-[16px]'>5.00 - 12.00</p>
                                     </div>
                                     <div className='flex justify-between gap-5 w-[220px] items-center'>
-                                        <h1 className='text-[18px] '> Sun: </h1>
+                                        <h1 className='text-[16px]  lg:text-[18px] '> Sun: </h1>
                                         <p className='text-[16px]'>4.00 - 10.30
                                         </p>
                                     </div>
-                                  
+
                                 </div>
                             </div>
 

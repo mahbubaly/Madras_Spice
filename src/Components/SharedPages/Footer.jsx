@@ -83,7 +83,7 @@ const Footer = () => {
 
                         </div>
                         <div>
-                            <p className='text-[14px] lg:text-[16px] my-[10px] text-center lg:text-left lg:my-0'>Developed By | <Link to='https://www.linkedin.com/in/md-mahbubur-rahman-mahbub-2a3a7b248/'> Mahbubur Rahman   </Link>
+                            <p className='text-[14px] lg:text-[16px] my-[10px] text-center lg:text-left lg:my-0'>Developed By | <Link to='https://www.linkedin.com/in/md-mahbubur-rahman-mahbub-2a3a7b248/'> Mahbubur Rahman  <br />Contact: +8801714-227495 </Link>
                             {/* <p>B.sc in Computer science Engineering</p>
                             <p>Call: 01714227495</p> */}
 

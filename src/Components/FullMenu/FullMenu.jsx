@@ -7,9 +7,9 @@ const FullMenu = () => {
         <>
             <div className='menuBg lg:h-[700px]'>
 
-                <div className='container lg:bg-inherit border-black bg-black  lg:opacity-100 opacity-50 mx-auto lg:border-b-2 lg:rounded-[20px] lg:w-[500px] '>
-                    <h1 className='text-center text-[28px]  lg:text-[45px] font-semibold text-white lg:text-black lg:mt-[200px]'>Menu</h1>
-                    <p className='text-center  text-[18px] lg:text-[20px]  lg:pb-0 pb-5 lg:text-black  text-white '>Experience the flavors of Madras at Madras Spice</p>
+                <div className='container  border-black  bg-gradient-to-r from-black p-5 lg:p-0 to-amber-300 lg:bg-none lg:opacity-100   mx-auto lg:border-b-2 lg:rounded-[20px] lg:w-[500px] '>
+                    <h1 className='text-center text-[28px]  lg:text-[45px] font-semibold text-white  lg:mt-[200px]'>Menu</h1>
+                    <p className='text-center  text-[18px] lg:text-[20px]  lg:pb-0 pb-5   text-white '>Experience the flavors of Madras at Madras Spice</p>
 
 
                 </div>
@@ -61,7 +61,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 0.70</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 0.70</p>
                                 </div>
 
 
@@ -79,7 +79,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>  £ 2.10</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>  £ 2.10</p>
                                 </div>
 
 
@@ -95,7 +95,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 0.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 0.50</p>
                                 </div>
 
                             </div>
@@ -112,7 +112,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 0.60</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 0.60</p>
                                 </div>
 
 
@@ -162,7 +162,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>
                                         £ 3.50</p>
                                 </div>
 
@@ -181,7 +181,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 3.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 3.95</p>
                                 </div>
 
 
@@ -197,7 +197,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
                                 </div>
 
                             </div>
@@ -214,7 +214,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 3.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 3.95</p>
                                 </div>
 
 
@@ -232,7 +232,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
                                 </div>
 
 
@@ -250,7 +250,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
                                 </div>
 
 
@@ -268,7 +268,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
                                 </div>
 
 
@@ -286,7 +286,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 3.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 3.95</p>
                                 </div>
 
 
@@ -304,7 +304,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 4.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 4.50</p>
                                 </div>
 
 
@@ -322,7 +322,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>----------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
                                 </div>
 
 
@@ -345,7 +345,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
                                 </div>
 
 
@@ -362,7 +362,7 @@ const FullMenu = () => {
                                         <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                        <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
+                                        <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
                                     </div>
 
 
@@ -380,7 +380,7 @@ const FullMenu = () => {
                                         <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                        <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
+                                        <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
                                     </div>
 
 
@@ -401,7 +401,7 @@ const FullMenu = () => {
                                         <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                        <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>
+                                        <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>
                                             £ 2.95</p>
                                     </div>
 
@@ -421,7 +421,7 @@ const FullMenu = () => {
                                         <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                        <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
+                                        <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
                                     </div>
 
 
@@ -564,7 +564,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
                                 </div>
 
 
@@ -583,7 +583,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 2.95</p>
                                 </div>
 
 
@@ -601,7 +601,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 3.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 3.95</p>
                                 </div>
 
 
@@ -619,7 +619,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 3.50</p>
                                 </div>
 
 
@@ -766,7 +766,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 4.50</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 4.50</p>
                                 </div>
 
 
@@ -785,7 +785,7 @@ const FullMenu = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 4.95</p>
                                 </div>
 
 
