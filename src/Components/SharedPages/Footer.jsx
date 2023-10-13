@@ -7,15 +7,15 @@ const Footer = () => {
         <>
 
             <div className='bgSimplySection p-5 lg:py-[80px] '>
-                <div className='container mx-auto opacity-80   bg-black rounded-[20px]  '>
+                <div className='container mx-auto opacity-80  bg-black rounded-[20px]  '>
                     <div className='lg:w-[800px]  mx-auto p-5 lg:p-[50px]    '>
-                        <p className='text-[18px] text-center text-amber-200 lg:w-[350px] rounded-[10px] mx-auto  border-b-2'>SIMPLY BUT DELICIOUS EXPERIENCE</p>
+                        <p className='text-[16px] sm:text-[18px] text-center text-amber-200 lg:w-[350px] rounded-[10px] mx-auto  border-b-2'>SIMPLY BUT DELICIOUS EXPERIENCE</p>
 
-                        <h1 className='lg:text-[40px] text-[25px] font-semibold text-center opacity-100  mt-[20px] text-white   '>We Created Best Dinning Experience <span className='text-orange-600'> For You & Your Family</span></h1>
+                        <h1 className='lg:text-[40px]  text-[18px] font-semibold text-center opacity-100  mt-[20px] text-white   '>We Created Best Dinning Experience <span className='text-orange-600'> For You & Your Family</span></h1>
                     </div>
 
 
-                    <div className='mt-[50px] lg:flex gap-[100px]  justify-center  lg:pb-[50px]'>
+                    <div className='mt-5 lg:mt-[50px] lg:flex gap-[100px]  justify-center  lg:pb-[50px]'>
                         <div className='lg:w-[400px] '>
                             <h1 className='text-[24px] font-semibold border-amber-300 text-amber-300 border-b-2 rounded w-[0px] hover:w-[70px] duration-1000'>Hours</h1>
 
@@ -77,20 +77,20 @@ const Footer = () => {
             <footer className='bg-black '>
                 <div className='container mx-auto '>
                     <div className='py-[10px] lg:flex justify-between items-center'>
-                        <div className='flex gap-5 '>
+                        <div className='flex justify-center gap-5 '>
                             <Link to=''>  <BsFacebook className=' w-[24px] h-[24px]' /></Link>
                             <Link to=''>  <BsInstagram className=' w-[24px] h-[24px]' /></Link>
 
                         </div>
                         <div>
-                            <p>Developed By | <Link to='https://www.linkedin.com/in/md-mahbubur-rahman-mahbub-2a3a7b248/'> Mahbubur Rahman   </Link>
+                            <p className='text-[14px] lg:text-[16px] my-[10px] text-center lg:text-left lg:my-0'>Developed By | <Link to='https://www.linkedin.com/in/md-mahbubur-rahman-mahbub-2a3a7b248/'> Mahbubur Rahman   </Link>
                             {/* <p>B.sc in Computer science Engineering</p>
                             <p>Call: 01714227495</p> */}
 
                             </p>
                         </div>
                         <div>
-                            <p>© 2023 Madras Spice. All rights reserved.</p>
+                            <p className='text-[14px] lg:text-[16px] text-center lg:text-left' >© 2023 Madras Spice. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

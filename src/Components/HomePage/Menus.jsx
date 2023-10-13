@@ -14,14 +14,14 @@ const Menus = () => {
             <div className='PerfectImgBanner_2'>
                 <div className='container mx-auto '>
 
-                    <div className='mt-[70px] border-b-[2px] rounded-[10px] lg:w-[500px] mx-auto'>
-                        <p className='text-center text-[35px] font-semibold  '>The Perfect  <span className='text-white'>Offer For You</span></p>
-                        <p className='text-xl text-center text-amber-200 mb-[10px] mt-[15px] uppercase'>FROM OUR MASTER CHEF</p>
+                    <div className='mt-[50px] lg:mt-[150px] border-b-[2px] rounded-[10px] lg:w-[500px] mx-auto'>
+                        <p className='text-center text-[27px] lg:text-[45px] font-semibold  '>The Perfect  <span className='text-white'>Offer For You</span></p>
+                        <p className='text-[16px] lg:text-xl  text-center text-amber-200 mb-[10px] mt-[15px] uppercase'>FROM OUR MASTER CHEF</p>
                     </div>
 
+                    {/* Balti Eotica */}
 
-
-                    <div className='mt-[100px] lg:flex gap-[30px] justify-center '>
+                    <div className='mt-[50px] lg:mt-[100px] lg:flex gap-[30px] justify-center '>
                         <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  p-[30px]'>
 
                             <img src={food1} className='rounded-[50%] mx-auto lg:w-[250px] lg:h-[250px]' alt="" />
@@ -49,19 +49,21 @@ const Menus = () => {
                         </div>
                     </div>
 
+
                     {/* Our Awesome Restaurant */}
 
-                    <div className='mt-[100px] lg:flex gap-[60px] items-center'>
+                    <div className='mt-[50px] lg:mt-[100px] lg:flex gap-[60px] items-center'>
                         <div className='lg:w-[600px]'>
-                            <h2 className='text-[40px] font-semibold text-black '>Our Awesome Restaurant</h2>
-                            <p className='flex items-end mt-[10px] gap-[4px] text-orange-700 text-[24px]'>Authentic Indian flavors <hr className='w-[80px] rounded-[2px]  border-amber-200 border-[1px]' /></p>
+                            <h2 className='lg:text-[45px] text-[28px]  font-semibold text-black '>Our Awesome Restaurant</h2>
+                            <p className='flex items-end mt-[10px] gap-[4px] text-orange-700 text-lg lg:text-[24px]'>Authentic Indian flavors <hr className='w-[80px] rounded-[2px]  border-amber-200 lg:border-[1px]' /></p>
 
-                            <p className='mt-5 lg:w-[350px] font-light'>Experience the flavors of Madras at Madras Spice, located in Sale Moor, Manchester. Our menu features a wide variety of authentic dishes made with fresh ingredients and bold spices. Our friendly staff will ensure you have a memorable dining experience. Stop by for lunch or dinner. We can't wait to see you at Madras Spice!</p>
+                            <p className='mt-[10px] lg:mt-5 lg:w-[350px] font-light'>Experience the flavors of Madras at Madras Spice, located in Sale Moor, Manchester. Our menu features a wide variety of authentic dishes made with fresh ingredients and bold spices. Our friendly staff will ensure you have a memorable dining experience. Stop by for lunch or dinner. We can't wait to see you at Madras Spice!</p>
 
-                          
+
 
                             <Link to='/menu' onClick={() => {
-                            window.scrollTo(0, 0);}}>   <button className="custom-btn btn-7 font-semibold ml-0 mt-[20px] w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                                window.scrollTo(0, 0);
+                            }}>   <button className="custom-btn btn-7 font-semibold ml-0 mt-[20px] w-full  lg:w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                         </div>
 
 
@@ -80,15 +82,15 @@ const Menus = () => {
 
                     {/* Tasty Menu */}
 
-                    <div className='mt-[100px] border-b-[2px] border-orange-600 rounded-[10px]  lg:w-[500px] mx-auto'>
-                        <p className='text-center text-[35px] font-semibold  '>Tasty Menu  <span className='text-white'>Today</span></p>
-                        <p className='text-xl text-center text-orange-600 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
+                    <div className='lg:mt-[100px] mt-[50px] border-b-[2px] border-orange-600 rounded-[10px]  lg:w-[500px] mx-auto'>
+                        <p className='text-center text-[27px] lg:text-[35px] font-semibold  '>Tasty Menu  <span className='text-white'>Today</span></p>
+                        <p className='lg:text-xl text-[16px] text-center text-orange-600 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
                     </div>
 
 
 
                     <div className='bg-black text-amber-200 mt-[50px] shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
-                        <h1 className='text-[25px] font-medium mt-[50px]'>SIGNATURE DISHED</h1>
+                        <h1 className='lg:text-[28px] text-[18px] font-medium mt-[50px]'>SIGNATURE DISHED</h1>
 
                         {/* 1 */}
                         <div className='mt-[50px]'>
@@ -107,7 +109,7 @@ const Menus = () => {
 
 
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>An exotic selection of tandoori grill dished, consist of lamb chops, chicken tikka, lamb tikka, king prawn & keema cooked with olive oil, mustard, roasted green peppers, red onions & egg on top.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>An exotic selection of tandoori grill dished, consist of lamb chops, chicken tikka, lamb tikka, king prawn & keema cooked with olive oil, mustard, roasted green peppers, red onions & egg on top.</p>
 
                             </div>
                         </div>
@@ -121,7 +123,7 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 10.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 10.95</p>
                                 </div>
 
 
@@ -129,7 +131,7 @@ const Menus = () => {
 
 
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Bangladeshi style aromatic spices cooked with fried red, green peppers garnished with shatkora, coriander, herbs & spice.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Bangladeshi style aromatic spices cooked with fried red, green peppers garnished with shatkora, coriander, herbs & spice.</p>
 
                             </div>
                         </div>
@@ -143,7 +145,7 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 10.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 10.95</p>
                                 </div>
 
 
@@ -151,7 +153,7 @@ const Menus = () => {
 
 
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Succulent char grilled breast cooked with homemade honey, stir fried, red & green peppers, onion & aromatic duck, herbs & spices.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Succulent char grilled breast cooked with homemade honey, stir fried, red & green peppers, onion & aromatic duck, herbs & spices.</p>
 
                             </div>
                         </div>
@@ -165,7 +167,7 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 11.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 11.95</p>
                                 </div>
 
 
@@ -173,7 +175,7 @@ const Menus = () => {
 
 
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Cooked with tandoori chicken, lamb tikka, chicken tikka & king prawn, medium spiced balti sauce.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Cooked with tandoori chicken, lamb tikka, chicken tikka & king prawn, medium spiced balti sauce.</p>
 
                             </div>
                         </div>
@@ -188,10 +190,10 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
                                 </div>
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Lamb cooked in very special spices with spinach & paneer.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Lamb cooked in very special spices with spinach & paneer.</p>
 
                             </div>
                         </div>
@@ -206,10 +208,10 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
                                 </div>
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Pieces of meat cooked in garlic and chilli sauce with coriander leaves and crisp green chillies.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Pieces of meat cooked in garlic and chilli sauce with coriander leaves and crisp green chillies.</p>
 
                             </div>
                         </div>
@@ -225,10 +227,10 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 7.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 7.95</p>
                                 </div>
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Cooked with mix veg, paneer, cauliflower, potatoes & aubergine in a thick medium sauce.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Cooked with mix veg, paneer, cauliflower, potatoes & aubergine in a thick medium sauce.</p>
 
                             </div>
                         </div>
@@ -244,10 +246,10 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 8.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 8.95</p>
                                 </div>
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Cooked with secrets selection of spices & shatkora for a tangy taste. <br />
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Cooked with secrets selection of spices & shatkora for a tangy taste. <br />
 
                                     (Shatkora is a tropical fruit found only in Bangladesh)</p>
 
@@ -265,10 +267,10 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 11.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 11.95</p>
                                 </div>
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Tender grilled pieces of salmon cooked with chef’s special homemade sauce to create modernant special dish.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Tender grilled pieces of salmon cooked with chef’s special homemade sauce to create modernant special dish.</p>
 
                             </div>
                         </div>
@@ -284,10 +286,10 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
                                 </div>
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Fried chicken cooked in masala with red & green pepper & tomatoes.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Fried chicken cooked in masala with red & green pepper & tomatoes.</p>
 
                             </div>
                         </div>
@@ -304,10 +306,10 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 10.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 10.95</p>
                                 </div>
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Tender diced chicken tikka places cooked with barbecued tomatoes, onions & capsicum, Served in a thick spicy sauce, chef secret spices & herbs.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Tender diced chicken tikka places cooked with barbecued tomatoes, onions & capsicum, Served in a thick spicy sauce, chef secret spices & herbs.</p>
 
                             </div>
                         </div>
@@ -323,10 +325,10 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 11.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 11.95</p>
                                 </div>
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Large grilled King Prawn cooked with red & green pepper, onions & capsicum, Served in a thick spicy sauce, chef secret spices & herbs.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Large grilled King Prawn cooked with red & green pepper, onions & capsicum, Served in a thick spicy sauce, chef secret spices & herbs.</p>
 
                             </div>
                         </div>
@@ -343,10 +345,10 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
                                 </div>
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>Strip chicken tikka & minced lamb cooked with ginger, garlic & rich blend of medium spices & herbs topped with boiled egg.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>Strip chicken tikka & minced lamb cooked with ginger, garlic & rich blend of medium spices & herbs topped with boiled egg.</p>
 
                             </div>
                         </div>
@@ -362,10 +364,10 @@ const Menus = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[14px] lg:text-[22px] text-[#fa6e3a]'>£ 9.95</p>
                                 </div>
 
-                                <p className='mt-[20px] text-white text-[12px] lg:text-[16px] font-light'>(Chicken, Lamb, Veg) whole garlic, onions & peppers slowly cooked producing a full garlic flavoured dish.</p>
+                                <p className='mt-[20px] text-white text-[14px] lg:text-[16px] font-light'>(Chicken, Lamb, Veg) whole garlic, onions & peppers slowly cooked producing a full garlic flavoured dish.</p>
 
                             </div>
                         </div>
@@ -378,14 +380,10 @@ const Menus = () => {
 
                     </div>
 
-                    <div className=' flex justify-center items-center mt-[50px]'>
+                    <div className=' flex justify-center items-center lg:mt-[50px] mt-[20px]'>
                         <Link to='/menu' onClick={() => {
                             window.scrollTo(0, 0);
-
-
-
-
-                        }} >  <button className="custom-btn btn-14 font-semibold  text-[20px] w-[160px] h-[50px] ">Full MENU</button></Link>
+                        }} >  <button className="custom-btn btn-14 font-semibold  text-[20px]  h-[50px]  ">Full MENU</button></Link>
                     </div>
 
                 </div>

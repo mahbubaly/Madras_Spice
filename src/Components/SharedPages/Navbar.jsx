@@ -10,7 +10,7 @@ const Navbar = () => {
 
     const navbar = <>
 
-        <Link to='/' className='mt-5 lg:mt-0' >
+        <Link to='/' className='mt-5 lg:mt-0' onClick={() => setOpen(!open)} >
 
 
 
@@ -21,7 +21,7 @@ const Navbar = () => {
 
         </Link>
 
-        <Link to='/menu' className='my-5 lg:my-0' >
+        <Link to='/menu' className='my-5 lg:my-0' onClick={() => setOpen(!open)} >
 
 
 
@@ -35,7 +35,7 @@ const Navbar = () => {
         </Link>
 
 
-        <Link to='/about-us'     >
+        <Link to='/about-us'   onClick={() => setOpen(!open)}  >
 
 
 
@@ -45,7 +45,7 @@ const Navbar = () => {
 
         </Link>
 
-        <Link to='/contact' className='my-5 lg:my-0'  >
+        <Link to='/contact' className='my-5 lg:my-0' onClick={() => setOpen(!open)} >
 
 
 

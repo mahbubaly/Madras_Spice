@@ -53,7 +53,7 @@ const Banner = () => {
                                     <p className='text-[16px] font-medium text-white '>
                                         Little Test Big Testy
                                     </p>
-                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                    <h1 className='lg:text-[60px] text-[27px] lg:mt-[20px] mt-[10px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
                                         Indian Restaurant and Takeaway
                                     </h1>
                                     <p className='my-5 lg:w-[500px] text-white'>
@@ -78,7 +78,7 @@ const Banner = () => {
                                     <p className='text-[16px] font-medium text-white '>
                                         Little Test Big Testy
                                     </p>
-                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                    <h1 className='lg:text-[60px] text-[27px] lg:mt-[20px] mt-[10px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
                                         Indian Restaurant and Takeaway
                                     </h1>
                                     <p className='my-5 lg:w-[500px] text-white'>
@@ -102,7 +102,7 @@ const Banner = () => {
                                     <p className='text-[16px] font-medium text-white '>
                                         Little Test Big Testy
                                     </p>
-                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                    <h1 className='lg:text-[60px] text-[27px] lg:mt-[20px] mt-[10px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
                                         Indian Restaurant and Takeaway
                                     </h1>
                                     <p className='my-5 lg:w-[500px] text-white'>
@@ -125,7 +125,7 @@ const Banner = () => {
                                     <p className='text-[16px] font-medium text-white '>
                                         Little Test Big Testy
                                     </p>
-                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                    <h1 className='lg:text-[60px] text-[27px] lg:mt-[20px] mt-[10px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
                                         Indian Restaurant and Takeaway
                                     </h1>
                                     <p className='my-5 lg:w-[500px] text-white'>
@@ -148,7 +148,7 @@ const Banner = () => {
                                     <p className='text-[16px] font-medium text-white '>
                                         Little Test Big Testy
                                     </p>
-                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                    <h1 className='lg:text-[60px] text-[27px] lg:mt-[20px] mt-[10px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
                                         Indian Restaurant and Takeaway
                                     </h1>
                                     <p className='my-5 lg:w-[500px] text-white'>
@@ -170,10 +170,10 @@ const Banner = () => {
                                     <p className='text-[16px] font-medium text-white '>
                                         Little Test Big Testy
                                     </p>
-                                    <h1 className='lg:text-[60px] text-[30px] mt-[20px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
+                                    <h1 className='lg:text-[60px] text-[27px] lg:mt-[20px] mt-[10px] font-bold lg:leading-[70px] lg:w-[500px] text-white'>
                                         Indian Restaurant and Takeaway
                                     </h1>
-                                    <p className='my-5 lg:w-[500px] text-white'>
+                                    <p className='text-[16px] lg:text-lg my-5 lg:w-[500px] text-white'>
                                         Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                     </p>
 
@@ -192,8 +192,8 @@ const Banner = () => {
 
 
 
-                    <div className='mt-[100px] bg_imgCall rounded-[20px] relative lg:top-[90px] bg-gradient-to-r from-[#FF78C4] to-fuchsia-500'>
-                        <p className='p-[50px] text-[30px] font-semibold   text-white flex justify-center items-center gap-5'> <button className=''><IoIosCall className='w-[40px] relative  hover:-top-5 h-[40px]' /></button> Call Now On +44 161 973 3966 For Order Food or Book Table</p>
+                    <div className='mt-[100px] bg_imgCall  relative rounded-[10px] -top-[50px] lg:top-[90px] '>
+                        <p className='p-5 lg:p-[50px] text-[20px] lg:text-[27px] font-semibold   text-white opacity-70 bg-black rounded-[10px] lg:text-white flex justify-center items-center gap-5'> <button className=''><IoIosCall className='w-[40px] relative  hover:-top-5 h-[40px]' /></button> Call Now On +44 161 973 3966 For Order Food or Book Table</p>
 
 
 

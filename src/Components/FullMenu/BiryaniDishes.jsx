@@ -30,7 +30,7 @@ const BiryaniDishes = () => {
 
 
                         {/* 1 */}
-                        <div className='mt-[100px]'>
+                        <div className='lg:mt-[100px] mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken
@@ -156,7 +156,7 @@ const BiryaniDishes = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>-----------------------------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 6.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 6.95</p>
                                 </div>
 
 
@@ -176,7 +176,7 @@ const BiryaniDishes = () => {
                                     <p className='text-gray-500 lg:ml-3 ml-2 lg:block hidden'>--------------------------------------------------------------------</p>
 
 
-                                    <p className='lg:ml-3 ml-2 text-[12px] lg:text-[22px] text-[#fa6e3a]'>£ 8.95</p>
+                                    <p className='lg:ml-3 ml-2 text-[16px] lg:text-[22px] text-[#fa6e3a]'>£ 8.95</p>
                                 </div>
 
 
@@ -217,7 +217,7 @@ const BiryaniDishes = () => {
 
 
                         {/* 1 */}
-                        <div className='mt-[100px]'>
+                        <div className='lg:mt-[100px] mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Saag Aloo
@@ -517,7 +517,7 @@ const BiryaniDishes = () => {
                     <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
                         <div className='lg:w-[700px] mx-auto text-center '>
-                            <h1 className='text-[25px] font-medium mt-[50px] lg:w-[350px] mx-auto text-center border-b-2 border-amber-200  '>RICE DISHES</h1>
+                            <h1 className='text-[25px] font-medium mt-[50px] w-[250px] mx-auto text-center border-b-2 border-amber-200  '>RICE DISHES</h1>
 
 
 
@@ -527,7 +527,7 @@ const BiryaniDishes = () => {
 
 
                         {/* 1 */}
-                        <div className='mt-[100px]'>
+                        <div className='mt-[50px] lg:mt-[100px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Pilau Rice
@@ -811,7 +811,7 @@ const BiryaniDishes = () => {
                     <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
                         <div className='lg:w-[700px] mx-auto text-center '>
-                            <h1 className='text-[25px] font-medium mt-[50px] lg:w-[350px] mx-auto text-center border-b-2 border-amber-200  '>SUNDRIES & NAAN BREADS</h1>
+                            <h1 className='text-[22px] font-medium mt-[50px] lg:w-[350px] mx-auto text-center border-b-2 border-amber-200  '>SUNDRIES & NAAN BREADS</h1>
 
 
 
@@ -821,7 +821,7 @@ const BiryaniDishes = () => {
 
 
                         {/* 1 */}
-                        <div className='mt-[100px]'>
+                        <div className='mt-[50px] lg:mt-[100px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Plain Naan
@@ -1186,7 +1186,7 @@ const BiryaniDishes = () => {
                     <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
                         <div className='lg:w-[700px] mx-auto text-center '>
-                            <h1 className='text-[25px] font-medium mt-[50px] lg:w-[250px] mx-auto text-center border-b-2 border-amber-200  '>ENGLISH DISHES</h1>
+                            <h1 className='text-[25px] font-medium mt-[50px] w-[250px] mx-auto text-center border-b-2 border-amber-200  '>ENGLISH DISHES</h1>
 
 
                             <p className='text-[16px] mt-[10px] '>Served with chips, salad & green peas
@@ -1198,7 +1198,7 @@ const BiryaniDishes = () => {
 
 
                         {/* 1 */}
-                        <div className='mt-[100px]'>
+                        <div className='mt-[50px] lg:mt-[100px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken Omlette
@@ -1324,13 +1324,13 @@ const BiryaniDishes = () => {
 
             <div className='ChatBg'>
                 <div className='container mx-auto'>
-                    <div className='bg-black opacity-90 text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
+                    <div className='bg-black opacity-90 text-amber-200 mt-[50px] lg:mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
                         <div className='lg:w-[800px] mx-auto text-center lg:mb-[60px]'>
-                            <h1 className='text-[35px] font-medium mt-[50px] mx-auto text-center border-b-2 border-amber-200  '>SUNDAY NIGHT SPECIAL FIVE COURSE MEAL</h1>
+                            <h1 className='lg:text-[35px] text-[25px] font-medium mt-[50px] mx-auto text-center border-b-2 border-amber-200  '>SUNDAY NIGHT SPECIAL FIVE COURSE MEAL</h1>
 
 
-                            <p className='text-[24px] font-semibold mt-[10px]  '>Papadum & Chutneys
+                            <p className='text-lg lg:text-[24px] font-semibold mt-[10px]  '>Papadum & Chutneys
                             </p>
 
                             <p className='text-[16px] mt-[10px] '>Choice of Any starters & Any Main Dishes from the menu, (except King Prawns, Salmon, Duck & Lamb Chop) Choice of Rice, Naan or Chips. Served with tea or coffee.
@@ -1378,16 +1378,18 @@ const BiryaniDishes = () => {
                                 <p className='text-[16px] font-light text-[#fa6e3a] text-center mt-[10px]'>£ 24.95</p>
 
                                 <p className='text-[16px] text-amber-200 border-amber-200  mt-[50px] font-semibold   lg:w-[90px]   '>Starters:</p>
-                                <p className='text-[24px] font-semibold mt-[10px]  '>Papadums & Chutney, CHicken Tikka & Meat Samosa
+                                <p className='text-lg lg:text-[24px] font-semibold mt-[10px]  '>Papadums & Chutney, CHicken Tikka & Meat Samosa
                                 </p>
 
                                 <p className='text-[16px]  text-amber-200 border-amber-200  mt-[50px] font-semibold   lg:w-[70px]   '>Mains:</p>
-                                <p className='text-[24px] font-semibold mt-[10px]  '>Lamb Rogan Josh, Chicken Balti
+                                <p className='text-lg lg:text-[24px] font-semibold mt-[10px]  '>Lamb Rogan Josh, Chicken Balti
                                 </p>
                                 <p className='text-[16px] text-amber-200 border-amber-200  mt-[50px] font-semibold   lg:w-[110px]   '>Side Dishes:</p>
-                                <p className='text-[24px] font-semibold mt-[10px]  '>Bombay Potatoes, Pilau Rice & Naan Bread
+                                <p className='text-lg lg:text-[24px] font-semibold mt-[10px]  '>Bombay Potatoes, Pilau Rice & Naan Bread
                                 </p>
                             </div>
+
+                            {/* grid 2 */}
 
                             <div className='bg-black  text-white  rounded-[10px] px-[30px] py-[50px]'>
 
@@ -1398,14 +1400,14 @@ const BiryaniDishes = () => {
                                 <p className='text-[16px] font-light text-[#fa6e3a] text-center mt-[10px]'>£ 22.95</p>
 
                                 <p className='text-[16px] text-amber-200 border-amber-200  mt-[50px] font-semibold  lg:w-[90px]   '>Starters:</p>
-                                <p className='text-[24px] font-semibold mt-[10px]  '>Papadums & Chutney, Vegetable Samosa & Aloo Chaat
+                                <p className='text-lg lg:text-[24px] font-semibold mt-[10px]  '>Papadums & Chutney, Vegetable Samosa & Aloo Chaat
                                 </p>
 
                                 <p className='text-[16px]  text-amber-200 border-amber-200  mt-[50px] font-semibold  lg:w-[70px]   '>Mains:</p>
-                                <p className='text-[24px] font-semibold mt-[10px]  '>Veg Rogan Josh & Veg Bhuna
+                                <p className='text-lg lg:text-[24px] font-semibold mt-[10px]  '>Veg Rogan Josh & Veg Bhuna
                                 </p>
                                 <p className='text-[16px] text-amber-200 border-amber-200  mt-[50px] font-semibold   lg:w-[110px]   '>Side Dishes:</p>
-                                <p className='text-[24px] font-semibold mt-[10px]  '>Bombay Potatoes, Pilau Rice & Naan Bread
+                                <p className='text-lg lg:text-[24px] font-semibold mt-[10px]  '>Bombay Potatoes, Pilau Rice & Naan Bread
                                 </p>
                             </div>
 
@@ -1426,55 +1428,18 @@ const BiryaniDishes = () => {
                         <p className='text-[16px] font-light text-[#fa6e3a] text-center mt-[10px]'>£ 25.95</p>
 
                         <p className='text-[16px] text-amber-200 border-amber-200  mt-[50px] font-semibold   lg:w-[90px]   '>Starters:</p>
-                        <p className='text-[24px] font-semibold mt-[10px]  '>Papadum & Chutneys, Seekh Kebab, Chicken Tikka
+                        <p className='text-lg lg:text-[24px] font-semibold mt-[10px]  '>Papadum & Chutneys, Seekh Kebab, Chicken Tikka
                         </p>
 
                         <p className='text-[16px]  text-amber-200 border-amber-200  mt-[50px] font-semibold   lg:w-[70px]   '>Mains:</p>
-                        <p className='text-[24px] font-semibold mt-[10px]  '>Lamb Tikka, Tandoori Chicken
+                        <p className='text-lg lg:text-[24px] font-semibold mt-[10px]  '>Lamb Tikka, Tandoori Chicken
                         </p>
                         <p className='text-[16px] text-amber-200 border-amber-200  mt-[50px] font-semibold   lg:w-[110px]   '>Side Dishes:</p>
-                        <p className='text-[24px] font-semibold mt-[10px]  '>Curry Sauce, Pilau Rice & Naan Bread
+                        <p className='text-lg lg:text-lg lg:text-[24px] font-semibold mt-[10px]  '>Curry Sauce, Pilau Rice & Naan Bread
                         </p>
                     </div>
 
 
-                    <div className='bg-black opacity-90 text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
-
-                        <div className='lg:w-[800px] mx-auto text-center lg:mb-[60px]'>
-                            <h1 className='text-[35px] font-medium mt-[50px] mx-auto text-center border-b-2 border-amber-200  '>SUNDAY NIGHT SPECIAL FIVE COURSE MEAL</h1>
-
-
-                            <p className='text-[24px] font-semibold mt-[10px]  '>Papadum & Chutneys
-                            </p>
-
-                            <p className='text-[16px] mt-[10px] '>Choice of Any starters & Any Main Dishes from the menu, (except King Prawns, Salmon, Duck & Lamb Chop) Choice of Rice, Naan or Chips. Served with tea or coffee.
-                            </p>
-                            <p className='text-[16px] font-semibold text-[#fa6e3a] mt-[10px]'>Any extras £ 1.50</p>
-
-
-                            <h3 className='text-[24px]  font-semibold  text-amber-200 mt-[50px]'>Adult:      <span className='text-[#fa6e3a] '>       £ 12.95</span></h3>
-
-                            <h3 className='text-[24px]  font-semibold  text-amber-200 mt-[10px]'>Child:      <span className='text-[#fa6e3a] '>£ 9.95</span>
-                            </h3>
-
-
-                            <p className='text-[16px] mt-[10px] '>Special Days not included | Available for Dine in only.
-                            </p>
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </div>
 
 
 
@@ -1496,13 +1461,7 @@ const BiryaniDishes = () => {
                             <p className='text-[24px] font-semibold mt-[10px] text-[#fa6e3a] '>DAILY MENU
                             </p>
 
-                            <p className='text-[16px] mt-[10px] '>Our executive chef has hand-selected today's special,
-
-                                the pan-seared duck breast, which is served with a cherry reduction sauce
-
-                                and a side of truffle mashed potatoes
-
-                                - a truly decadent and unforgettable dining experience.
+                            <p className='text-[16px] mt-[10px] '>Our executive chef has hand-selected today's special, the pan-seared duck breast, which is served with a cherry reduction sauce and a side of truffle mashed potatoes- a truly decadent and unforgettable dining experience.
                             </p>
 
 
@@ -1512,7 +1471,7 @@ const BiryaniDishes = () => {
 
 
                         <div className='mt-[100px] lg:flex gap-[30px] justify-center '>
-                            <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  p-[30px]'>
+                            <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px] p-2  lg:p-[30px]'>
 
                                 <img src={food1} className='rounded-[50%] mx-auto lg:w-[200px] lg:h-[250px]' alt="" />
 
@@ -1521,7 +1480,7 @@ const BiryaniDishes = () => {
 
                             </div>
 
-                            <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  my-[30px] lg:my-0 p-[30px]'>
+                            <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  my-[30px] lg:my-0  p-2 lg:p-[30px]'>
 
                                 <img src={food2} className='rounded-[50%]  mx-auto lg:w-[200px] lg:h-[250px]' alt="" />
 
@@ -1529,7 +1488,7 @@ const BiryaniDishes = () => {
                                 <p className='text-[16px] mt-[10px] font-light'>Tender diced chicken tikka places cooked with barbecued tomatoes, onions & capsicum, Served in a thick spicy sauce, chef secret spices & herbs.</p>
 
                             </div>
-                            <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  p-[30px]'>
+                            <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]   p-2 lg:p-[30px]'>
 
                                 <img src={food3} className='rounded-[50%] mx-auto lg:w-[200px] lg:h-[250px]' alt="" />
 

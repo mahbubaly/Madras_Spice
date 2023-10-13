@@ -450,6 +450,26 @@
    
 
 }
+.aboutChef {
+    background-image: url(../../assets/Images/chef3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+   
+
+}
+.resView {
+    background-image: url(../../assets/Images/resbg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+   
+
+}
 
 
 
@@ -468,6 +488,9 @@
 
         padding: 20px;
 
+    }
+    .popularDish{
+        width: 250px;
     }
     .MarginLeft{
         margin-left: 20px;
@@ -488,6 +511,10 @@
     .MarginLeft{
         margin-left: 30px;
     
+    }
+
+    .popularDish{
+        width: 320px;
     }
 
     .mobile_gap {

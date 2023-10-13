@@ -7,9 +7,9 @@ const FullMenu = () => {
         <>
             <div className='menuBg lg:h-[700px]'>
 
-                <div className='container  mx-auto border-b-2 lg:w-[500px] rounded-[10px]'>
-                    <h1 className='text-center text-[45px] font-semibold text-white lg:mt-[200px]'>Menu</h1>
-                    <p className='lg:text-center font-light text-white '>Experience the flavors of Madras at Madras Spice</p>
+                <div className='container lg:bg-inherit border-black bg-black  lg:opacity-100 opacity-50 mx-auto lg:border-b-2 lg:rounded-[20px] lg:w-[500px] '>
+                    <h1 className='text-center text-[28px]  lg:text-[45px] font-semibold text-white lg:text-black lg:mt-[200px]'>Menu</h1>
+                    <p className='text-center  text-[18px] lg:text-[20px]  lg:pb-0 pb-5 lg:text-black  text-white '>Experience the flavors of Madras at Madras Spice</p>
 
 
                 </div>
@@ -24,14 +24,15 @@ const FullMenu = () => {
 
             <div className='MainMenu'>
 
-                <h1 className='pt-[80px] text-center text-[30px] lg:text-[45px]  font-semibold  text-white'>Tasty Menu Today</h1>
+                <h1 className='lg:pt-[80px] pt-[50px] text-center text-[28px] lg:text-[45px]  font-semibold  text-white'>Tasty Menu Today</h1>
 
                 <div className='container mx-auto pb-[50px]'>
 
                     {/* CONDIMENTS */}
 
-                    <div className='bg-black  text-amber-200 mt-[50px] shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
-                        <h1 className='text-[25px] font-medium mt-[50px] lg:w-[170px] border-b-2 border-amber-200 '>CONDIMENTS</h1>
+                    <div className='mt-5 lg:mt-[50px] bg-black  text-amber-200  shadow-2xl rounded-[10px]
+                     p-5 lg:p-[50px]'>
+                        <h1 className='text-[25px] mx-auto lg:mx-0 font-medium mt-[20px] lg:mt-[50px] w-[170px] border-b-2  border-amber-200 '>CONDIMENTS</h1>
 
                         {/* 1 */}
                         <div className='mt-[50px]'>
@@ -131,8 +132,8 @@ const FullMenu = () => {
 
                     {/* STARTERS */}
 
-                    <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
-                        <h1 className='text-[25px] font-medium mt-[50px] lg:w-[120px] border-b-2 border-amber-200 '>STARTERS</h1>
+                    <div className='mt-[50px] lg:mt-[100px] bg-black text-amber-200   shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
+                        <h1 className='text-[25px] text-center lg:text-left font-medium mt-[20px] lg:mt-[50px] mx-auto lg:mx-0 w-[130px] lg:w-[120px] border-b-2 border-amber-200 '>STARTERS</h1>
 
                         {/* 1 */}
                         <div className='mt-[50px]'>
@@ -446,9 +447,9 @@ const FullMenu = () => {
 
                     {/* VEGETARIAN STARTERS */}
 
-                    <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
+                    <div className='bg-black text-amber-200 mt-[50px] lg:mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <h1 className='text-[25px] font-medium mt-[50px] lg:w-[290px] border-b-2 border-amber-200 '>VEGETARIAN STARTERS</h1>
+                        <h1 className='text-[25px] font-medium mt-[20px] lg:mt-[50px] lg:mx-0 mx-auto w-[290px] border-b-2 border-amber-200  '>VEGETARIAN STARTERS</h1>
 
                         {/* 1 */}
                         <div className='mt-[50px]'>
@@ -642,9 +643,9 @@ const FullMenu = () => {
 
                     {/* SEAFOOD STARTERS */}
 
-                    <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
+                    <div className='bg-black text-amber-200  mt-[50px] lg:mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <h1 className='text-[25px] font-medium mt-[50px] lg:w-[250px] border-b-2 border-amber-200 '>SEAFOOD STARTERS</h1>
+                        <h1 className='text-[25px] font-medium mt-[20px] lg:mt-[50px] lg:mx-0 mx-auto w-[250px] border-b-2 border-amber-200 '>SEAFOOD STARTERS</h1>
 
                         {/* 1 */}
                         <div className='mt-[50px]'>
