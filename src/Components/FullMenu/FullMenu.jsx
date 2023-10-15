@@ -1,19 +1,29 @@
 import React from 'react';
 import TandooriCurry from './TandooriCurry';
 import BiryaniDishes from './BiryaniDishes';
+import { Helmet } from 'react-helmet-async';
 
 const FullMenu = () => {
     return (
         <>
-            <div className='menuBg lg:h-[700px]'>
+            <Helmet>
+                <title>Menu -Madras Spice</title>
+            </Helmet>
+            <div className='menuBg lg:h-[700px] '>
 
-                <div className='container  border-black  bg-gradient-to-r from-black p-5 lg:p-0 to-amber-300 lg:bg-none lg:opacity-100   mx-auto lg:border-b-2 lg:rounded-[20px] lg:w-[500px] '>
-                    <h1 className='text-center text-[28px]  lg:text-[45px] font-semibold text-white  lg:mt-[200px]'>Menu</h1>
-                    <p className='text-center  text-[18px] lg:text-[20px]  lg:pb-0 pb-5   text-white '>Experience the flavors of Madras at Madras Spice</p>
+                <div className='flex justify-center bg-black opacity-70  items-center lg:h-[700px] '>
+                    <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='container  mx-auto   bg-gradient-to-r from-black p-5 lg:p-0 to-amber-300 lg:bg-none    lg:w-[500px] '>
+                        <h1 className='text-center text-[28px]  lg:text-[45px] font-semibold text-white '>Menu</h1>
+                        <p className='text-center  text-[18px] lg:text-[20px]  lg:pb-0 pb-5   text-white '>Experience the flavors of Madras at Madras Spice</p>
 
+
+                    </div>
 
                 </div>
-
 
             </div>
 
@@ -24,7 +34,11 @@ const FullMenu = () => {
 
             <div className='MainMenu'>
 
-                <h1 className='lg:pt-[80px] pt-[50px] text-center text-[28px] lg:text-[45px]  font-semibold  text-white'>Tasty Menu Today</h1>
+                <h1 data-aos="fade-left"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-mirror="false"
+                    data-aos-once="true" className='lg:pt-[80px] pt-[50px] text-center text-[28px] lg:text-[45px]  font-semibold  text-white'>Tasty Menu Today</h1>
 
                 <div className='container mx-auto pb-[50px]'>
 
@@ -36,7 +50,11 @@ const FullMenu = () => {
 
                         {/* 1 */}
                         <div className='mt-[50px]'>
-                            <div >
+                            <div data-aos="fade-right"
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
+                                data-aos-mirror="false"
+                                data-aos-once="true">
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Plain Papadoms
                                     </h1>
@@ -53,7 +71,11 @@ const FullMenu = () => {
 
                         {/* 2 */}
                         <div className='mt-[30px]'>
-                            <div >
+                            <div data-aos="fade-right"
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
+                                data-aos-mirror="false"
+                                data-aos-once="true">
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Spicy Papadoms
                                     </h1>
@@ -69,7 +91,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Chutney Tray
@@ -87,7 +113,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Onion/Mango/MInt/Red</h1>
@@ -102,7 +132,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[30px] pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> LIme Pickle
@@ -133,10 +167,18 @@ const FullMenu = () => {
                     {/* STARTERS */}
 
                     <div className='mt-[50px] lg:mt-[100px] bg-black text-amber-200   shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
-                        <h1 className='text-[25px] text-center lg:text-left font-medium mt-[20px] lg:mt-[50px] mx-auto lg:mx-0 w-[130px] lg:w-[120px] border-b-2 border-amber-200 '>STARTERS</h1>
+                        <h1 data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='text-[25px] text-center lg:text-left font-medium mt-[20px] lg:mt-[50px] mx-auto lg:mx-0 w-[130px] lg:w-[120px] border-b-2 border-amber-200 '>STARTERS</h1>
 
                         {/* 1 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken Tikka
@@ -153,7 +195,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Tandoori Chicken
@@ -171,7 +217,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Lamb Tikka
@@ -189,7 +239,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Lamb Chops</h1>
@@ -204,7 +258,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Garlic Chicken Tikka
@@ -222,7 +280,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Chicken Pakora
@@ -240,7 +302,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Chicken Chat
@@ -258,7 +324,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Cheesy Chicken
@@ -276,7 +346,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 9 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Sweet Chilli Chicken
@@ -294,7 +368,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 10 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Shashlik Tikka Chicken
@@ -312,7 +390,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 11 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Shashlik Tikka Lamb
@@ -334,7 +416,11 @@ const FullMenu = () => {
                         {/* 12 */}
 
 
-                        <div className='mt-[30px] pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Mix Kebab
@@ -449,10 +535,18 @@ const FullMenu = () => {
 
                     <div className='bg-black text-amber-200 mt-[50px] lg:mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <h1 className='text-[25px] font-medium mt-[20px] lg:mt-[50px] lg:mx-0 mx-auto w-[290px] border-b-2 border-amber-200  '>VEGETARIAN STARTERS</h1>
+                        <h1 data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='text-[25px] font-medium mt-[20px] lg:mt-[50px] lg:mx-0 mx-auto w-[290px] border-b-2 border-amber-200  '>VEGETARIAN STARTERS</h1>
 
                         {/* 1 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Onion Bhaji
@@ -469,7 +563,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Veg Samosa
@@ -486,7 +584,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Veg Pakora
@@ -504,7 +606,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Garlic Mushroom</h1>
@@ -519,7 +625,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Mulligatawny Soup
@@ -536,7 +646,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Paneer Tikka
@@ -554,7 +668,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Aloo Chat
@@ -572,7 +690,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Veg Chat
@@ -591,7 +713,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 9 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Sweet Chilli Chicken
@@ -609,7 +735,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 10 */}
-                        <div className='mt-[30px] pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Cheesy Mashroom
@@ -645,10 +775,18 @@ const FullMenu = () => {
 
                     <div className='bg-black text-amber-200  mt-[50px] lg:mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <h1 className='text-[25px] font-medium mt-[20px] lg:mt-[50px] lg:mx-0 mx-auto w-[250px] border-b-2 border-amber-200 '>SEAFOOD STARTERS</h1>
+                        <h1 data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='text-[25px] font-medium mt-[20px] lg:mt-[50px] lg:mx-0 mx-auto w-[250px] border-b-2 border-amber-200 '>SEAFOOD STARTERS</h1>
 
                         {/* 1 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Fish Tikka
@@ -666,7 +804,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Fish Shashlik
@@ -683,7 +825,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Tandoori King Prawn
@@ -702,7 +848,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>King Prawn Puri</h1>
@@ -717,7 +867,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Prawn Puri
@@ -736,7 +890,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> KIng Prawn Puri
@@ -755,7 +913,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> KIng Prawn Butterfly
@@ -774,7 +936,11 @@ const FullMenu = () => {
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[30px] pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Salmon Tikka

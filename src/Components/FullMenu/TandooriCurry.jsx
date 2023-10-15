@@ -12,7 +12,11 @@ const TandooriCurry = () => {
 
                     <div className='bg-black text-amber-200 mt-[50px] lg:mt-[100px]   shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <div className='lg:w-[700px] mx-auto text-center '>
+                        <div data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:w-[700px] mx-auto text-center '>
                             <h1 className='text-[25px] font-medium mt-[50px]  w-[250px] mx-auto text-center border-b-2 border-amber-200  '>TANDOORI</h1>
 
                             <p className='text-lg font-medium mt-5 text-white lg:text-amber-200'>SIZZLER SPECIALITIES</p>
@@ -25,7 +29,11 @@ const TandooriCurry = () => {
 
 
                         {/* 1 */}
-                        <div className='lg:mt-[100px] mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:mt-[100px] mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken Tikka
@@ -42,7 +50,11 @@ const TandooriCurry = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Tandoori Chicken
@@ -60,7 +72,11 @@ const TandooriCurry = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Lamb Tikka
@@ -79,7 +95,11 @@ const TandooriCurry = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Garlic Chicken Tikka
@@ -95,7 +115,11 @@ const TandooriCurry = () => {
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Tandoori Lamb Chops
@@ -115,7 +139,11 @@ const TandooriCurry = () => {
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Tandoori Mixed Grill
@@ -135,7 +163,11 @@ const TandooriCurry = () => {
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Paneer Tikka
@@ -154,7 +186,11 @@ const TandooriCurry = () => {
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken Tikka Shashlik
@@ -172,7 +208,11 @@ const TandooriCurry = () => {
                             </div>
                         </div>
                         {/* 9 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Lamb Tikka Shashlik
@@ -191,7 +231,11 @@ const TandooriCurry = () => {
                             </div>
                         </div>
                         {/* 10 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Tandoori Fish Tikka
@@ -209,7 +253,11 @@ const TandooriCurry = () => {
                             </div>
                         </div>
                         {/* 11 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Tandoori King Prawn Shashlik
@@ -228,7 +276,11 @@ const TandooriCurry = () => {
                             </div>
                         </div>
                         {/* 12 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Tandoori KIng Prawn
@@ -248,7 +300,11 @@ const TandooriCurry = () => {
                         </div>
 
                         {/* 13 */}
-                        <div className='mt-[30px] lg:pb-[20px] pb-5'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px] pb-5'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Salmon Tikka
@@ -284,7 +340,11 @@ const TandooriCurry = () => {
 
                     <div>
                         <div className='lg:mt-[100px] mt-[50px] grid grid-cols-1 lg:grid-cols-2 gap-[30px]  '>
-                            <div className='bg-black  text-white  shadow-white  shadow-2xl rounded-[10px] px-[30px] py-[50px]'>
+                            <div data-aos="fade-right"
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
+                                data-aos-mirror="false"
+                                data-aos-once="true" className='bg-black  text-white  shadow-white  shadow-2xl rounded-[10px] px-[30px] py-[50px]'>
 
 
 
@@ -309,8 +369,11 @@ const TandooriCurry = () => {
 
                             </div>
 
-                            <div className='bg-black  text-white shadow-white  shadow-2xl 
-rounded-[10px] px-[30px] py-[50px]'>
+                            <div data-aos="fade-left"
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
+                                data-aos-mirror="false"
+                                data-aos-once="true" className='bg-black  text-white shadow-white  shadow-2xl rounded-[10px] px-[30px] py-[50px]'>
 
 
 
@@ -340,10 +403,18 @@ rounded-[10px] px-[30px] py-[50px]'>
 
 
                     <div className='bg-black text-amber-200 mt-[50px] shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
-                        <h1 className='text-[25px] font-medium mt-[50px]'>SIGNATURE DISHED</h1>
+                        <h1 data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='text-[25px] font-medium mt-[50px]'>SIGNATURE DISHED</h1>
 
                         {/* 1 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'> Madras Spice Special Tawa</h1>
@@ -365,7 +436,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Lamb Chops Karahi</h1>
@@ -387,7 +462,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Honey Duck</h1>
@@ -409,7 +488,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Balti Excotica</h1>
@@ -431,7 +514,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Hyderabadi Ghost
@@ -449,7 +536,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Garlic Chilli (Chicken or Lamb)
@@ -467,7 +558,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Sabzi Bahar
@@ -486,7 +581,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Shatkora (Chicken or Lamb)
@@ -507,7 +606,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 9 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Salmon Naga
@@ -526,7 +629,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 10 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Balti Fried Cham Cham
@@ -546,7 +653,11 @@ rounded-[10px] px-[30px] py-[50px]'>
 
                         {/* 11 */}
 
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Shashlik Korahi
@@ -565,7 +676,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 12 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Zingha Bhuna
@@ -585,7 +700,11 @@ rounded-[10px] px-[30px] py-[50px]'>
 
                         {/* 13 */}
 
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Shahi Mix
@@ -604,7 +723,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 14 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Garlic Mannchura
@@ -623,7 +746,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 15 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Chilli Masala
@@ -642,7 +769,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 16 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> REZALLA
@@ -677,10 +808,18 @@ rounded-[10px] px-[30px] py-[50px]'>
                     {/* TRADITIONAL DISHES */}
 
                     <div className='bg-black text-amber-200 mt-[50px] shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
-                        <h1 className='text-[25px] font-medium mt-[50px]'>TRADITIONAL DISHES</h1>
+                        <h1 data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='text-[25px] font-medium mt-[50px]'>TRADITIONAL DISHES</h1>
 
                         {/* 1 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'> Curry</h1>
@@ -702,7 +841,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Bhuna</h1>
@@ -724,7 +867,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Korma
@@ -747,7 +894,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Dupiaza
@@ -770,7 +921,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Rogan Josh
@@ -789,7 +944,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Dansak
@@ -808,7 +967,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Samber
@@ -827,7 +990,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Madras
@@ -847,7 +1014,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 9 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Patia
@@ -866,7 +1037,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 10 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Vindaloo
@@ -887,7 +1062,11 @@ rounded-[10px] px-[30px] py-[50px]'>
 
                         {/* 11 */}
 
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Phall
@@ -910,7 +1089,11 @@ rounded-[10px] px-[30px] py-[50px]'>
 
 
                         {/* 13 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken / Prawn
@@ -927,7 +1110,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 14 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Lamb / Keema
@@ -945,7 +1132,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 15 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken Tikka / Lamb Tikka
@@ -961,7 +1152,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                             </div>
                         </div>
                         {/* 16 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>King Prawn
@@ -978,7 +1173,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 17 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Special Mix (Chicken, Lamb, Prawn)
@@ -996,7 +1195,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 18 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Mix Vegetables
@@ -1014,7 +1217,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 19 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Fish
@@ -1032,7 +1239,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 20 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Paneer
@@ -1051,7 +1262,11 @@ rounded-[10px] px-[30px] py-[50px]'>
 
 
                         {/* 21 */}
-                        <div className='mt-[50px] pb-5'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px] pb-5'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Duck
@@ -1095,10 +1310,18 @@ rounded-[10px] px-[30px] py-[50px]'>
                     {/* TRADITIONAL DISHES */}
 
                     <div className='bg-black text-amber-200 mt-[50px] shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
-                        <h1 className='text-[25px] font-medium mt-[50px]'>ALL TIME FAVOURITES</h1>
+                        <h1 data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='text-[25px] font-medium mt-[50px]'>ALL TIME FAVOURITES</h1>
 
                         {/* 1 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'> Massala
@@ -1121,7 +1344,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Pasanda</h1>
@@ -1143,7 +1370,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Makani
@@ -1167,7 +1398,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Balti
@@ -1186,7 +1421,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Karahi
@@ -1206,7 +1445,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Jalfrezi
@@ -1225,7 +1468,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Achari
@@ -1245,7 +1492,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Saag
@@ -1271,7 +1522,11 @@ rounded-[10px] px-[30px] py-[50px]'>
 
 
                         {/* 9 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken / Prawn
@@ -1288,7 +1543,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 14 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Lamb / Keema
@@ -1307,7 +1566,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 15 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken Tikka / Lamb Tikka
@@ -1323,7 +1586,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                             </div>
                         </div>
                         {/* 16 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>King Prawn
@@ -1340,7 +1607,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 17 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Special Mix (Chicken, Lamb, Prawn)
@@ -1358,7 +1629,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 18 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Mix Vegetables
@@ -1376,7 +1651,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 19 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Fish
@@ -1394,7 +1673,11 @@ rounded-[10px] px-[30px] py-[50px]'>
                         </div>
 
                         {/* 20 */}
-                        <div className='mt-[50px]'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Paneer
@@ -1413,7 +1696,11 @@ rounded-[10px] px-[30px] py-[50px]'>
 
 
                         {/* 21 */}
-                        <div className='mt-[50px] pb-5'>
+                        <div data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px] pb-5'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Duck

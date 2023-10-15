@@ -7,6 +7,9 @@ import indian2 from '../../assets/Images/indian3.jpg'
 import indian3 from '../../assets/Images/inidan 2.jpg'
 import '../SharedPages/Style.css'
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Menus = () => {
     return (
@@ -14,14 +17,28 @@ const Menus = () => {
             <div className='PerfectImgBanner_2'>
                 <div className='container mx-auto '>
 
-                    <div className='mt-[50px] lg:mt-[150px] border-b-[2px] rounded-[10px] lg:w-[500px] mx-auto'>
+                    <div data-aos="fade-left"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+
+                        data-aos-mirror="false"
+                        data-aos-once="true"
+
+
+                        className='mt-[50px] lg:mt-[150px] border-b-[2px] rounded-[10px] lg:w-[500px] mx-auto'>
                         <p className='text-center text-[27px] lg:text-[45px] font-semibold  '>The Perfect  <span className='text-white'>Offer For You</span></p>
                         <p className='text-[16px] lg:text-xl  text-center text-amber-200 mb-[10px] mt-[15px] uppercase'>FROM OUR MASTER CHEF</p>
                     </div>
 
                     {/* Balti Eotica */}
 
-                    <div className='mt-[50px] lg:mt-[100px] lg:flex gap-[30px] justify-center '>
+                    <div data-aos="fade-right"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[50px] lg:mt-[100px] lg:flex gap-[30px] justify-center '>
                         <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  p-[30px]'>
 
                             <img src={food1} className='rounded-[50%] mx-auto lg:w-[250px] lg:h-[250px]' alt="" />
@@ -53,7 +70,13 @@ const Menus = () => {
                     {/* Our Awesome Restaurant */}
 
                     <div className='mt-[50px] lg:mt-[100px] lg:flex gap-[60px] items-center'>
-                        <div className='lg:w-[600px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:w-[600px]'>
                             <h2 className='lg:text-[45px] text-[28px]  font-semibold text-black '>Our Awesome Restaurant</h2>
                             <p className='flex items-end mt-[10px] gap-[4px] text-orange-700 text-lg lg:text-[24px]'>Authentic Indian flavors <hr className='w-[80px] rounded-[2px]  border-amber-200 lg:border-[1px]' /></p>
 
@@ -69,11 +92,29 @@ const Menus = () => {
 
                         <div className='mt-[30px] lg:mt-0 '>
 
-                            <img src={indian1} className='lg:w-[400px] w-[250px] ml-[20px] lg:-ml-[30px] rounded-[10px]' alt="" />
+                            <img data-aos="fade-up"
 
-                            <img src={indian3} className='lg:w-[500px] w-[320px] MarginLeft -mt-[180px] xl:-mt-[300px] lg:-mt-[250px]  lg:ml-[50px] xl:ml-[100px] rounded-[10px]' alt="" />
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
 
-                            <img src={indian2} className='lg:w-[350px] w-[250px] lg:-ml-[100px] -mt-[150px] lg:-mt-[220px]  rounded-[10px]' alt="" />
+                                data-aos-mirror="false"
+                                data-aos-once="true" src={indian1} className='lg:w-[400px] w-[250px] ml-[20px] lg:-ml-[30px] rounded-[10px]' alt="" />
+
+                            <img data-aos="fade-left"
+
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
+
+                                data-aos-mirror="false"
+                                data-aos-once="true" src={indian3} className='lg:w-[500px] w-[320px] MarginLeft -mt-[180px] xl:-mt-[300px] lg:-mt-[250px]  lg:ml-[50px] xl:ml-[100px] rounded-[10px]' alt="" />
+
+                            <img data-aos="fade-down"
+
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
+
+                                data-aos-mirror="false"
+                                data-aos-once="true" src={indian2} className='lg:w-[350px] w-[250px] lg:-ml-[100px] -mt-[150px] lg:-mt-[220px]  rounded-[10px]' alt="" />
 
                         </div>
                     </div>
@@ -82,7 +123,13 @@ const Menus = () => {
 
                     {/* Tasty Menu */}
 
-                    <div className='lg:mt-[100px] mt-[50px] border-b-[2px] border-orange-600 rounded-[10px]  lg:w-[500px] mx-auto'>
+                    <div data-aos="fade-up"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1500"
+
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='lg:mt-[100px] mt-[50px] border-b-[2px] border-orange-600 rounded-[10px]  lg:w-[500px] mx-auto'>
                         <p className='text-center text-[27px] lg:text-[35px] font-semibold  '>Tasty Menu  <span className='text-white'>Today</span></p>
                         <p className='lg:text-xl text-[16px] text-center text-orange-600 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
                     </div>
@@ -93,8 +140,14 @@ const Menus = () => {
                         <h1 className='lg:text-[28px] text-[18px] font-medium mt-[50px]'>SIGNATURE DISHED</h1>
 
                         {/* 1 */}
-                        <div className='mt-[50px]'>
-                            <div >
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px]'>
+                            <div  >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[14px] lg:text-[18px] flex items-center font-medium'> Madras Spice Special Tawa</h1>
 
@@ -115,7 +168,13 @@ const Menus = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Lamb Chops Karahi</h1>
@@ -137,7 +196,13 @@ const Menus = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Honey Duck</h1>
@@ -159,7 +224,13 @@ const Menus = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Balti Excotica</h1>
@@ -181,7 +252,13 @@ const Menus = () => {
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Hyderabadi Ghost
@@ -199,7 +276,13 @@ const Menus = () => {
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Garlic Chilli (Chicken or Lamb)
@@ -217,7 +300,13 @@ const Menus = () => {
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Sabzi Bahar
@@ -236,7 +325,13 @@ const Menus = () => {
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Shatkora (Chicken or Lamb)
@@ -257,7 +352,13 @@ const Menus = () => {
                         </div>
 
                         {/* 9 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Salmon Naga
@@ -276,7 +377,13 @@ const Menus = () => {
                         </div>
 
                         {/* 10 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Balti Fried Cham Cham
@@ -296,7 +403,13 @@ const Menus = () => {
 
                         {/* 11 */}
 
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Shashlik Korahi
@@ -315,7 +428,13 @@ const Menus = () => {
                         </div>
 
                         {/* 12 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Zingha Bhuna
@@ -335,7 +454,13 @@ const Menus = () => {
 
                         {/* 13 */}
 
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Shahi Mix
@@ -354,7 +479,13 @@ const Menus = () => {
                         </div>
 
                         {/* 14 */}
-                        <div className='mt-[80px]'>
+                        <div data-aos="fade-right"
+
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[80px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[14px] lg:text-[18px] flex items-center font-medium'> Garlic Mannchura
@@ -380,7 +511,13 @@ const Menus = () => {
 
                     </div>
 
-                    <div className=' flex justify-center items-center lg:mt-[50px] mt-[20px]'>
+                    <div data-aos="fade-up"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+
+                        data-aos-mirror="false"
+                        data-aos-once="true" className=' flex justify-center items-center lg:mt-[50px] mt-[20px]'>
                         <Link to='/menu' onClick={() => {
                             window.scrollTo(0, 0);
                         }} >  <button className="custom-btn btn-14 font-semibold  text-[20px]  h-[50px]  ">Full MENU</button></Link>

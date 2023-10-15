@@ -11,17 +11,31 @@ const PopularCourses = () => {
             <div className='bg_popularSection'>
                 <div className='container mx-auto '>
 
-                    <div className='mt-[50px] lg:mt-[70px] border-b-[2px]  border-orange-600 rounded-[8px] lg:w-[500px] mx-auto'>
-                        <p className='text-center lg:text-[45px] text-[25px] font-semibold  '>Popular<span className='text-orange-600'> main cource</span></p>
-                        <p className='text-lg lg:text-xl text-center text-amber-500 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
+                    <div data-aos="zoom-in"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1500"
+
+                        data-aos-mirror="false"
+                        data-aos-once="true">
+                        <div className='mt-[50px] lg:mt-[70px] border-b-[2px]  border-orange-600 rounded-[8px] lg:w-[500px] mx-auto'>
+                            <p className='text-center lg:text-[45px] text-[25px] font-semibold  '>Popular<span className='text-orange-600'> main cource</span></p>
+                            <p className='text-lg lg:text-xl text-center text-amber-500 mb-[10px] mt-[15px] uppercase'>CHEF SELECTION</p>
+                        </div>
+                        <p className='mt-[20px] lg:text-lg  text-[16px] font-light lg:w-[700px] text-center mx-auto'>Experience the culinary delights of our menu,crafted by our talented chefs using only the freshest and highest-quality ingredients, guaranteeing a satisfying and memorable meal.</p>
                     </div>
-                    <p className='mt-[20px] lg:text-lg  text-[16px] font-light lg:w-[600px] text-center mx-auto'>Experience the culinary delights of our menu,crafted by our talented chefs using only the freshest and highest-quality ingredients, guaranteeing a satisfying and memorable meal.</p>
 
 
 
 
 
-                    <div className='mt-[100px] lg:flex gap-[30px] justify-center '>
+                    <div data-aos="fade-right"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='mt-[100px] lg:flex gap-[30px] justify-center '>
                         {/* 1 */}
                         <div className='bg-black text-white mx-auto  shadow-xl hover:shadow-2xl rounded-[10px] popularDish    p-[20px]'>
 
@@ -82,7 +96,7 @@ const PopularCourses = () => {
             </div>
 
 
-           
+
 
 
 

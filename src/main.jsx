@@ -12,6 +12,7 @@ import Home from './Components/HomePage/Home.jsx';
 import FullMenu from './Components/FullMenu/FullMenu.jsx';
 import Contact from './Components/Contact/Contact.jsx';
 import AboutUs from './Components/AboutUs/AboutUs.jsx';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 
@@ -44,6 +45,11 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+
+    <HelmetProvider>
+      <RouterProvider router={router} />
+
+
+    </HelmetProvider>
   </React.StrictMode>,
 )
