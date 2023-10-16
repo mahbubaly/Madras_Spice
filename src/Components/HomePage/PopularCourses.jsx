@@ -42,8 +42,8 @@ const PopularCourses = () => {
                             <img src={Chicken1} className='rounded-[100%] mx-auto w-[200px]  lg:w-[250px] lg:h-[250px]' alt="" />
 
                             <div className='flex justify-between items-center  mt-[30px] gap-5'>
-                                <h1 className='text-lg font-semibold text-amber-200 '>Chicken Tikka </h1>
-                                <p className='text-lg text-[#fa6e3a]'>£ 8.50</p>
+                                <h1 className='lg:text-lg  text-[16px] font-semibold text-amber-200 '>Chicken Tikka </h1>
+                                <p className='lg:text-lg  text-[16px] text-[#fa6e3a]'>£ 8.50</p>
                             </div>
                             <p className='text-[16px] mt-[10px] font-light'>Sweet & mild dish with coconut, mix almonds and a special masala sauces.</p>
 
@@ -54,8 +54,8 @@ const PopularCourses = () => {
                             <img src={Chicken2} className='rounded-[100%] mx-auto w-[200px]  lg:w-[250px] lg:h-[250px] ' alt="" />
 
                             <div className='flex justify-between items-center mt-[20px] gap-6'>
-                                <h1 className='text-[18px] text-amber-200 font-semibold '>Chicken Balti</h1>
-                                <p className='text-lg text-[#fa6e3a]'>
+                                <h1 className='lg:text-lg  text-[16px] text-amber-200 font-semibold '>Chicken Balti</h1>
+                                <p className='lg:text-lg  text-[16px] text-[#fa6e3a]'>
                                     £ 7.95</p>
                             </div>
                             <p className='text-[16px] mt-[10px] font-light'>Made from a special balti sauce prepared from the grinding some of indian most powerful spices to produce a mouth watering dish.</p>
@@ -68,8 +68,8 @@ const PopularCourses = () => {
                             <img src={Chicken3} className='rounded-[100%] mx-autow-[200px]  lg:w-[250px] lg:h-[250px] ' alt="" />
 
                             <div className='flex justify-between items-center mt-[30px] gap-6'>
-                                <h1 className='text-[18px] font-semibold text-amber-200'>Chicken Naga</h1>
-                                <p className='text-lg text-[#fa6e3a]'>£ 9.50</p>
+                                <h1 className='lg:text-lg  text-[16px] font-semibold text-amber-200'>Chicken Naga</h1>
+                                <p className='lg:text-lg  text-[16px] text-[#fa6e3a]'>£ 9.50</p>
                             </div>
                             <p className='text-[16px] mt-[10px] font-light'>Chicken with green & red peppers, onions & spices cooked with naga chilli sauce.</p>
 
@@ -81,9 +81,9 @@ const PopularCourses = () => {
 
                             <img src={Chicken4} className='rounded-[100%] mx-autow-[200px]  lg:w-[250px] lg:h-[250px] ' alt="" />
 
-                            <div className='flex justify-between items-center mt-[20px] gap-6'>
-                                <h1 className='text-[18px] font-semibold text-amber-200'>Chicken Rogan </h1>
-                                <p className='text-lg text-[#fa6e3a]'>£ 7.50</p>
+                            <div className=' justify-between items-center mt-[20px] gap-6'>
+                                <h1 className='lg:text-lg  text-[16px] font-semibold text-amber-200'>Chicken Rogan Josh </h1>
+                                <p className='lg:text-lg  text-[16px] text-right text-[#fa6e3a] '>£ 7.50</p>
                             </div>
                             <p className='text-[16px] mt-[10px] font-light'>Cooked with roasted green peppers, red peppers, lamaloes & coriander to create a medium and thick spicy dish.</p>
 

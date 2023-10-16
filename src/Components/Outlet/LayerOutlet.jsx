@@ -15,12 +15,12 @@ const LayerOutlet = () => {
 
                 <Navbar />
 
-                <div className='fixed  z-50 flex justify-end items-end ml-[30px]  mt-[75%] lg:hidden'>
+                <div className='fixed  z-50 flex justify-end items-end ml-[40px]  bottom-[30px] lg:hidden'>
 
 
                     <div className=' flex gap-[4px] items-center '>
-                        <a className='flex text-white items-center justify-center h-[50px] rounded-[50%] w-[50px] bg-black' href='tel:+44 161 973 3966'>  <IoIosCall className='text-amber-200   w-[24px] h-[24px]' /> </a>
-                        <p className='bg-black p-[4px] rounded-[2px] text-amber-200  text-[14px]' >Call Now </p>
+                        <a className='flex items-center justify-center h-[50px] rounded-[50%] w-[50px] bg-black hover:bg-amber-400 hover:text-white text-amber-200 ' href='tel:+44 161 973 3966'>  <IoIosCall className='   w-[24px] h-[24px]' /> </a>
+                        <a href='tel:+44 161 973 3966' className='bg-black p-[4px] rounded-[2px] text-amber-200  text-[16px]' >Call Now </a>
                     </div>
 
                 </div>
@@ -31,10 +31,13 @@ const LayerOutlet = () => {
                     smooth
                     width='24px'
                     color='#fde68a'
-                    className='flex justify-center items-center  '
+                   
+                    className='flex justify-center  items-center  '
                     style={{
                         background: 'black',
                         animation: ' 1.2 linear infinite alternate-reverse',
+                        
+                   
 
 
                     }}
