@@ -15,7 +15,7 @@ const LayerOutlet = () => {
 
                 <Navbar />
 
-                <div className='fixed  z-50 flex justify-end items-end ml-[30px]  mt-[300px] lg:hidden'>
+                <div className='fixed  z-50 flex justify-end items-end ml-[30px]  mt-[75%] lg:hidden'>
 
 
                     <div className=' flex gap-[4px] items-center '>
