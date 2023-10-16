@@ -148,7 +148,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Prawn
@@ -1640,10 +1644,10 @@ const BiryaniDishes = () => {
                             {/* grid 2 */}
 
                             <div data-aos="fade-left"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-mirror="false"
-                            data-aos-once="true" className='bg-black  text-white  rounded-[10px] px-[30px] py-[50px]'>
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
+                                data-aos-mirror="false"
+                                data-aos-once="true" className='bg-black  text-white  rounded-[10px] px-[30px] py-[50px]'>
 
 
 
@@ -1672,10 +1676,10 @@ const BiryaniDishes = () => {
                     {/* TANDOORI SET MEAL FOR TWO PERSON */}
 
                     <div data-aos="fade-right"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-mirror="false"
-                            data-aos-once="true" className='bg-black  mt-[80px] text-white  rounded-[10px] px-[30px] py-[50px]'>
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-mirror="false"
+                        data-aos-once="true" className='bg-black  mt-[80px] text-white  rounded-[10px] px-[30px] py-[50px]'>
 
 
 
@@ -1708,7 +1712,7 @@ const BiryaniDishes = () => {
                 <div className='container mx-auto'>
 
 
-                    <div  className='bg-black opacity-90 text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
+                    <div className='bg-black opacity-90 text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
                         <div data-aos="fade-right"
                             data-aos-delay="50"
@@ -1718,7 +1722,7 @@ const BiryaniDishes = () => {
                             <h1 className='text-[35px] lg:w-[350px]  font-medium mt-[50px] mx-auto text-center border-b-2 border-amber-200  '>Chef selection</h1>
 
 
-                            <p className='text-[24px] font-semibold mt-[10px] text-[#fa6e3a] '>DAILY MENU
+                            <p className='text-[24px] font-semibold mt-[10px] text-[#fa6e3a]'>DAILY MENU
                             </p>
 
                             <p className='text-[16px] mt-[10px] '>Our executive chef has hand-selected today's special, the pan-seared duck breast, which is served with a cherry reduction sauce and a side of truffle mashed potatoes- a truly decadent and unforgettable dining experience.
@@ -1736,9 +1740,7 @@ const BiryaniDishes = () => {
                             data-aos-mirror="false"
                             data-aos-once="true" className='mt-[100px] lg:flex gap-[30px] justify-center '>
                             <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px] p-2  lg:p-[30px]'>
-
                                 <img src={food1} className='rounded-[50%]  lg:w-[200px] lg:h-[250px]' alt="" />
-
                                 <h1 className='text-[24px] font-semibold mt-[20px] text-amber-200'>Balti Eotica</h1>
                                 <p className='text-[16px] mt-[10px] font-light'>Cooked with tandoori chicken, lamb tikka, chicken tikka & king prawn, medium spiced balti sauce.</p>
 
