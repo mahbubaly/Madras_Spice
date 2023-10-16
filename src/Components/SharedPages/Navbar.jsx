@@ -104,7 +104,7 @@ const Navbar = () => {
 
                                 {/* Mobile */}
 
-                                <div className={`block lg:hidden  bgBannerImg_1 lg:col-span-3  absolute lg:static lg:w-auto top-0 left-0 overflow-hidden h-full lg:h-auto duration-500 lg:bg-[transparent] lg:p-0 z-50 ${open ? "w-[85%]  p-5" : "w-0"}`}>
+                                <div className={`block lg:hidden  bgBannerImg_1 lg:col-span-3  absolute lg:static lg:w-auto top-0 left-0 overflow-hidden h-full lg:h-auto duration-500 lg:bg-[transparent] lg:p-0 z-30 ${open ? "w-[85%]  p-5" : "w-0"}`}>
 
                                     <div className='flex  justify-between'>
                                         <ul className='flex  flex-col pl-[30px] pt-[20px] '>

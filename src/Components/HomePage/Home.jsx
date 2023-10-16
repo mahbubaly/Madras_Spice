@@ -4,6 +4,7 @@ import Menus from './Menus';
 import PopularCourses from './PopularCourses';
 import { Helmet } from 'react-helmet-async';
 
+
 const Home = () => {
     return (
         <>
@@ -11,6 +12,9 @@ const Home = () => {
                 <Helmet>
                     <title>Home -Madras Spice</title>
                 </Helmet>
+
+
+
 
                 <Banner />
 

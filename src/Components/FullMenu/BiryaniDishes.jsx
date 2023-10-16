@@ -17,7 +17,11 @@ const BiryaniDishes = () => {
 
                     <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <div className='lg:w-[700px] mx-auto text-center '>
+                        <div data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:w-[700px] mx-auto text-center '>
                             <h1 className='text-[25px] font-medium mt-[50px] lg:w-[250px] mx-auto text-center border-b-2 border-amber-200  '>BIRYANI DISHES</h1>
 
 
@@ -30,7 +34,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 1 */}
-                        <div className='lg:mt-[100px] mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:mt-[100px] mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken
@@ -47,7 +55,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Lamb
@@ -66,7 +78,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken Tikka
@@ -86,7 +102,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Lamb Tikka
@@ -103,7 +123,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> King Prawn
@@ -144,7 +168,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Mix Vegetable
@@ -164,7 +192,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Mix Biryani (chicken, lamb, prawn)
@@ -204,7 +236,11 @@ const BiryaniDishes = () => {
 
                     <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <div className='lg:w-[700px] mx-auto text-center '>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:w-[700px] mx-auto text-center '>
                             <h1 className='text-[25px] font-medium mt-[50px] lg:w-[350px] mx-auto text-center border-b-2 border-amber-200  '>VEGETABLE SIDE DISHES</h1>
 
 
@@ -217,7 +253,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 1 */}
-                        <div className='lg:mt-[100px] mt-[50px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:mt-[100px] mt-[50px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Saag Aloo
@@ -235,7 +275,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Saag Bhaji
@@ -255,7 +299,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Bombay Aloo
@@ -276,7 +324,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Aloo Gobi
@@ -294,7 +346,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Mushroom Bhaji
@@ -313,7 +369,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Tarka Daal
@@ -333,7 +393,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Bhindi Bhaji
@@ -353,7 +417,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 8 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Brinjal Bhaji
@@ -373,7 +441,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 9 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Cauliflower Bhaji
@@ -392,7 +464,11 @@ const BiryaniDishes = () => {
                             </div>
                         </div>
                         {/* 10 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Mix Vegetable
@@ -412,7 +488,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 11 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Saag Paneer
@@ -433,7 +513,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 12 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Mutter Paneer
@@ -454,7 +538,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 13 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Chana Massala
@@ -475,7 +563,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 14 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Chana Daal
@@ -516,7 +608,11 @@ const BiryaniDishes = () => {
 
                     <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <div className='lg:w-[700px] mx-auto text-center '>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:w-[700px] mx-auto text-center '>
                             <h1 className='text-[25px] font-medium mt-[50px] w-[250px] mx-auto text-center border-b-2 border-amber-200  '>RICE DISHES</h1>
 
 
@@ -527,7 +623,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 1 */}
-                        <div className='mt-[50px] lg:mt-[100px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px] lg:mt-[100px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Pilau Rice
@@ -545,7 +645,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Boiled Rice
@@ -565,7 +669,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Special Fried Rice
@@ -586,7 +694,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Mushroom Pilau Rice
@@ -605,7 +717,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 5 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Egg Pilau Rice
@@ -624,7 +740,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Lemon Rice
@@ -644,7 +764,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Keema Pilau Rice
@@ -665,7 +789,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 8 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Vegetable Pilau Rice
@@ -686,7 +814,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 9 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Onion Fried Rice
@@ -706,7 +838,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 10 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Garlic Fried Rice
@@ -726,7 +862,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 11 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Peas Pilau Rice
@@ -747,7 +887,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 12 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Aloo & Chilli Rice
@@ -768,7 +912,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 13 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Coconut Rice
@@ -810,7 +958,11 @@ const BiryaniDishes = () => {
 
                     <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <div className='lg:w-[700px] mx-auto text-center '>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:w-[700px] mx-auto text-center '>
                             <h1 className='text-[22px] font-medium mt-[50px] lg:w-[350px] mx-auto text-center border-b-2 border-amber-200  '>SUNDRIES & NAAN BREADS</h1>
 
 
@@ -821,7 +973,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 1 */}
-                        <div className='mt-[50px] lg:mt-[100px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px] lg:mt-[100px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Plain Naan
@@ -839,7 +995,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Garlic Naan
@@ -861,7 +1021,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 3 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Keema Naan
@@ -883,7 +1047,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Peshwari Naan
@@ -903,7 +1071,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 5 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Cheese Naan
@@ -923,7 +1095,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 6 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Coriander Naan
@@ -944,7 +1120,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 7 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Cheese & Onion Naan
@@ -966,7 +1146,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 8 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Garlic & Coriander Naan
@@ -989,7 +1173,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 9 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Chilli Naan
@@ -1011,7 +1199,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 10 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Stuffed Paratha
@@ -1032,7 +1224,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 11 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Paratha
@@ -1054,7 +1250,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 12 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Tandoori Roti
@@ -1076,7 +1276,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 13 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Puri
@@ -1098,7 +1302,11 @@ const BiryaniDishes = () => {
                             </div>
                         </div>
                         {/* 14 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Chips
@@ -1120,7 +1328,11 @@ const BiryaniDishes = () => {
                             </div>
                         </div>
                         {/* 15 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Raita (cucumber or onion)
@@ -1141,7 +1353,11 @@ const BiryaniDishes = () => {
                             </div>
                         </div>
                         {/* 16 */}
-                        <div className='mt-[30px] lg:pb-[20px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px] lg:pb-[20px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Indian Salad
@@ -1185,7 +1401,11 @@ const BiryaniDishes = () => {
 
                     <div className='bg-black text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <div className='lg:w-[700px] mx-auto text-center '>
+                        <div data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:w-[700px] mx-auto text-center '>
                             <h1 className='text-[25px] font-medium mt-[50px] w-[250px] mx-auto text-center border-b-2 border-amber-200  '>ENGLISH DISHES</h1>
 
 
@@ -1198,7 +1418,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 1 */}
-                        <div className='mt-[50px] lg:mt-[100px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[50px] lg:mt-[100px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className=' text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken Omlette
@@ -1218,7 +1442,11 @@ const BiryaniDishes = () => {
 
 
                         {/* 2 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Prawn Omlette
@@ -1239,7 +1467,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Mushroom Omlette
@@ -1261,7 +1493,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'>Chicken Nuggets
@@ -1280,7 +1516,11 @@ const BiryaniDishes = () => {
                         </div>
 
                         {/* 5 */}
-                        <div className='mt-[30px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[30px]'>
                             <div >
                                 <div className='flex items-center justify-between'>
                                     <h1 className='text-[16px] lg:text-[18px] flex items-center font-medium'> Fried Chicken
@@ -1326,7 +1566,11 @@ const BiryaniDishes = () => {
                 <div className='container mx-auto'>
                     <div className='bg-black opacity-90 text-amber-200 mt-[50px] lg:mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <div className='lg:w-[800px] mx-auto text-center lg:mb-[60px]'>
+                        <div data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:w-[800px] mx-auto text-center lg:mb-[60px]'>
                             <h1 className='lg:text-[35px] text-[25px] font-medium mt-[50px] mx-auto text-center border-b-2 border-amber-200  '>SUNDAY NIGHT SPECIAL FIVE COURSE MEAL</h1>
 
 
@@ -1367,9 +1611,13 @@ const BiryaniDishes = () => {
                     {/* MIX MEAT PLATTER PLATTER FOR TWO PERSON */}
 
                     <div>
-                        <div className='mt-[100px] grid grid-cols-1 lg:grid-cols-2 gap-[30px]  '>
+                        <div className='mt-[50px] lg:mt-[100px] grid grid-cols-1 lg:grid-cols-2 gap-[30px]  '>
                             {/* grid 1 */}
-                            <div className='bg-black  text-white  rounded-[10px] px-[30px] py-[50px]'>
+                            <div data-aos="fade-right"
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
+                                data-aos-mirror="false"
+                                data-aos-once="true" className='bg-black  text-white  rounded-[10px] px-[30px] py-[50px]'>
 
 
 
@@ -1391,7 +1639,11 @@ const BiryaniDishes = () => {
 
                             {/* grid 2 */}
 
-                            <div className='bg-black  text-white  rounded-[10px] px-[30px] py-[50px]'>
+                            <div data-aos="fade-left"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='bg-black  text-white  rounded-[10px] px-[30px] py-[50px]'>
 
 
 
@@ -1419,7 +1671,11 @@ const BiryaniDishes = () => {
 
                     {/* TANDOORI SET MEAL FOR TWO PERSON */}
 
-                    <div className='bg-black  mt-[80px] text-white  rounded-[10px] px-[30px] py-[50px]'>
+                    <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='bg-black  mt-[80px] text-white  rounded-[10px] px-[30px] py-[50px]'>
 
 
 
@@ -1452,9 +1708,13 @@ const BiryaniDishes = () => {
                 <div className='container mx-auto'>
 
 
-                    <div className='bg-black opacity-90 text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
+                    <div  className='bg-black opacity-90 text-amber-200 mt-[100px]  shadow-2xl rounded-[10px] p-5 lg:p-[50px]'>
 
-                        <div className='lg:w-[700px] mx-auto text-center lg:mb-[60px]'>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:w-[700px] mx-auto text-center lg:mb-[60px]'>
                             <h1 className='text-[35px] lg:w-[350px]  font-medium mt-[50px] mx-auto text-center border-b-2 border-amber-200  '>Chef selection</h1>
 
 
@@ -1470,10 +1730,14 @@ const BiryaniDishes = () => {
                         </div>
 
 
-                        <div className='mt-[100px] lg:flex gap-[30px] justify-center '>
+                        <div data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='mt-[100px] lg:flex gap-[30px] justify-center '>
                             <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px] p-2  lg:p-[30px]'>
 
-                                <img src={food1} className='rounded-[50%] mx-auto lg:w-[200px] lg:h-[250px]' alt="" />
+                                <img src={food1} className='rounded-[50%]  lg:w-[200px] lg:h-[250px]' alt="" />
 
                                 <h1 className='text-[24px] font-semibold mt-[20px] text-amber-200'>Balti Eotica</h1>
                                 <p className='text-[16px] mt-[10px] font-light'>Cooked with tandoori chicken, lamb tikka, chicken tikka & king prawn, medium spiced balti sauce.</p>
@@ -1482,7 +1746,7 @@ const BiryaniDishes = () => {
 
                             <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]  my-[30px] lg:my-0  p-2 lg:p-[30px]'>
 
-                                <img src={food2} className='rounded-[50%]  mx-auto lg:w-[200px] lg:h-[250px]' alt="" />
+                                <img src={food2} className='rounded-[50%]   lg:w-[200px] lg:h-[250px]' alt="" />
 
                                 <h1 className='text-[24px] font-semibold mt-[20px] text-amber-200'>Shashlik Korahi</h1>
                                 <p className='text-[16px] mt-[10px] font-light'>Tender diced chicken tikka places cooked with barbecued tomatoes, onions & capsicum, Served in a thick spicy sauce, chef secret spices & herbs.</p>
@@ -1490,7 +1754,7 @@ const BiryaniDishes = () => {
                             </div>
                             <div className='bg-black text-white shadow-xl hover:shadow-2xl rounded-[10px] lg:w-[370px]   p-2 lg:p-[30px]'>
 
-                                <img src={food3} className='rounded-[50%] mx-auto lg:w-[200px] lg:h-[250px]' alt="" />
+                                <img src={food3} className='rounded-[50%]  lg:w-[200px] lg:h-[250px]' alt="" />
 
                                 <h1 className='text-[24px] font-semibold mt-[20px] text-amber-200'>Hyderabadi Ghost</h1>
                                 <p className='text-[16px] mt-[10px] font-light'>Lamb cooked in very special spices with spinach & paneer.</p>

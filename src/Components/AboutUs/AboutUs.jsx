@@ -12,10 +12,9 @@ const AboutUs = () => {
                 <title>About-us -Madras Spice</title>
             </Helmet>
             <div>
-                <div className='aboutUsBG lg:h-[700px] '>
+                <div className='aboutUsBG lg:h-[700px]  '>
 
-                    <div className='lg:bg-none   bg-gradient-to-r from-black p-5 lg:p-0 to-pink-500
-                      lg:h-[700px]  lg:opacity-100 '>
+                    <div className='lg:bg-none  bg-black opacity-60 bg-gradient-to-r from-black p-5 lg:p-0 to-pink-400 lg:h-[700px]   '>
                         <div data-aos="fade-left"
 
                             data-aos-delay="50"
@@ -69,7 +68,7 @@ const AboutUs = () => {
 
 
                     <div className='mt-[50px] lg:mt-[100px] text-white'>
-                        <h1 data-aos="fade-down"
+                        <h1 data-aos="fade-up"
 
                             data-aos-delay="50"
                             data-aos-duration="1000"
@@ -144,20 +143,28 @@ const AboutUs = () => {
 
             <div className='aboutChef lg:h-[800px] '>
                 <div className='container mx-auto  lg:h-[300px] '>
-                    <div  className='lg:p-[30px] p-5 lg:w-[700px] bg-black rounded-[8px] opacity-80 lg:my-0 my-[50px] lg:mt-[200px]  mx-auto'>
-                        <h2 className='lg:text-[35px] text-[24px] text-center font-semibold text-orange-400 mt-[10px]'>OUR EXPERT CHEFS</h2>
-                        <p className='text-yellow-400 text-center text-[24px] font-semibold'>PROFESSIONAL COOK</p>
-                        <p className='text-white mt-[10px] text-[16px] text-center'>Our expert chefs have years of experience in crafting delicious and innovative dishes. They are passionate about food and dedicated to providing you with an unforgettable dining experience.</p>
+                    <div data-aos="fade-up"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+
+                        data-aos-mirror="false"
+                        data-aos-once="true">
+                        <div className='lg:p-[30px] p-5 lg:w-[700px] bg-black rounded-[8px] opacity-80 lg:my-0 my-[50px] lg:mt-[200px]  mx-auto'>
+                            <h2 className='lg:text-[35px] text-[24px] text-center font-semibold text-orange-400 mt-[10px]'>OUR EXPERT CHEFS</h2>
+                            <p className='text-yellow-400 text-center text-[24px] font-semibold'>PROFESSIONAL COOK</p>
+                            <p className='text-white mt-[10px] text-[16px] text-center'>Our expert chefs have years of experience in crafting delicious and innovative dishes. They are passionate about food and dedicated to providing you with an unforgettable dining experience.</p>
 
 
-                        <div className=' flex justify-center items-center mt-[50px]'>
-                            <Link to='/menu' onClick={() => {
-                                window.scrollTo(0, 0);
+                            <div className=' flex justify-center items-center mt-[50px]'>
+                                <Link to='/menu' onClick={() => {
+                                    window.scrollTo(0, 0);
 
 
 
 
-                            }} >  <button className="custom-btn btn-14 font-semibold  text-[20px] w-[200px] h-[50px] ">View our menu</button></Link>
+                                }} >  <button className="custom-btn btn-14 font-semibold  text-[20px] w-[200px] h-[50px] ">View our menu</button></Link>
+                            </div>
                         </div>
                     </div>
 
@@ -183,11 +190,19 @@ const AboutUs = () => {
 
             <div className='resView lg:h-[700px] '>
 
-                <div className='bg-black container mx-auto  opacity-60 lg:h-[700px] flex justify-center items-center'>
-                    <div  className='lg:py-0 py-5'>
-                        <h1 className='text-yellow-400 text-center font-semibold text-lg lg:text-[24px] '>RESTAURANT FANATICS</h1>
+                <div>
+                    <div className='bg-black container mx-auto  opacity-60 lg:h-[700px] flex justify-center items-center'>
+                        <div data-aos="fade-up"
 
-                        <p className='lg:text-[45px] text-[28px] font-semibold lg:w-[700px] mt-[10px] lg:mt-[20px] text-center mx-auto text-white'>It's The Restaurant You'Ve  <span className='text-amber-300'>Always Dreamed Of</span></p>
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+
+                            data-aos-mirror="false"
+                            data-aos-once="true" className='lg:py-0 py-5'>
+                            <h1 className='text-yellow-400 text-center font-semibold text-lg lg:text-[24px] '>RESTAURANT FANATICS</h1>
+
+                            <p className='lg:text-[45px] text-[28px] font-semibold lg:w-[700px] mt-[10px] lg:mt-[20px] text-center mx-auto text-white'>It's The Restaurant You'Ve  <span className='text-amber-300'>Always Dreamed Of</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
