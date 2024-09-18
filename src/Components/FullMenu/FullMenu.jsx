@@ -11,7 +11,7 @@ const FullMenu = () => {
             </Helmet>
             <div className='menuBg lg:h-[700px] '>
 
-                <div className='flex justify-center bg-black opacity-70  items-center lg:h-[700px] '>
+                <div className='flex justify-center  items-center lg:h-[700px] '>
                     <div data-aos="fade-right"
                         data-aos-delay="50"
                         data-aos-duration="1000"

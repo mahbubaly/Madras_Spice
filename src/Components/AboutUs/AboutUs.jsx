@@ -14,7 +14,7 @@ const AboutUs = () => {
             <div>
                 <div className='aboutUsBG lg:h-[700px]  '>
 
-                    <div className='lg:bg-none  bg-black opacity-60 bg-gradient-to-r from-black p-5 lg:p-0 to-pink-400 lg:h-[700px]   '>
+                    <div className='lg:bg-none   bg-gradient-to-r from-black p-5 lg:p-0 to-pink-400 lg:h-[700px]   '>
                         <div data-aos="fade-left"
 
                             data-aos-delay="50"

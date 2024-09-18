@@ -21,7 +21,7 @@ import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
-    
+
 
 
     return (
@@ -61,12 +61,12 @@ const Banner = () => {
                                     </p>
 
                                     <Link onClick={() => {
-                            window.scrollTo(0, 0);
+                                        window.scrollTo(0, 0);
 
 
 
 
-                        }}  to='/menu' > <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                                    }} to='/menu' > <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -86,12 +86,12 @@ const Banner = () => {
                                     </p>
 
                                     <Link onClick={() => {
-                            window.scrollTo(0, 0);
+                                        window.scrollTo(0, 0);
 
 
 
 
-                        }}  to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                                    }} to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -110,12 +110,12 @@ const Banner = () => {
                                     </p>
 
                                     <Link onClick={() => {
-                            window.scrollTo(0, 0);
+                                        window.scrollTo(0, 0);
 
 
 
 
-                        }}  to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                                    }} to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -133,12 +133,12 @@ const Banner = () => {
                                     </p>
 
                                     <Link onClick={() => {
-                            window.scrollTo(0, 0);
+                                        window.scrollTo(0, 0);
 
 
 
 
-                        }}  to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                                    }} to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -155,12 +155,12 @@ const Banner = () => {
                                         Authentic Indian flavors in the heart of Sale Moor, Manchester. Come dine with us at Madras Spice.
                                     </p>
                                     <Link onClick={() => {
-                            window.scrollTo(0, 0);
+                                        window.scrollTo(0, 0);
 
 
 
 
-                        }}  to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                                    }} to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -178,12 +178,12 @@ const Banner = () => {
                                     </p>
 
                                     <Link onClick={() => {
-                            window.scrollTo(0, 0);
+                                        window.scrollTo(0, 0);
 
 
 
 
-                        }}  to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
+                                    }} to='/menu'> <button className="custom-btn btn-7 w-[130px] h-[40px]"><span>CHECK MENU</span></button></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -197,7 +197,7 @@ const Banner = () => {
 
 
 
-                       
+
 
 
 

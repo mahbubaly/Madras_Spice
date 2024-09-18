@@ -27,7 +27,7 @@ const Menus = () => {
 
 
                         className='mt-[50px] lg:mt-[150px] border-b-[2px] rounded-[10px] lg:w-[500px] mx-auto'>
-                        <p className='text-center text-[27px] lg:text-[45px] font-semibold  '>The Perfect  <span className='text-white'>Offer For You</span></p>
+                        <p className='text-center text-[27px]  lg:leading-[62px] lg:text-[45px] font-semibold  '>The Perfect  <span className='text-white '>Offer For You</span></p>
                         <p className='text-[16px] lg:text-xl  text-center text-amber-200 mb-[10px] mt-[15px] uppercase'>FROM OUR MASTER CHEF</p>
                     </div>
 

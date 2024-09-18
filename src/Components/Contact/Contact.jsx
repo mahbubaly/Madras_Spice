@@ -1,38 +1,51 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { MdLocationPin } from 'react-icons/md';
 import { HiMiniDevicePhoneMobile } from 'react-icons/hi2';
 import { BiTime } from 'react-icons/bi';
 import { Helmet } from 'react-helmet-async';
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 
 
 const Contact = () => {
+
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('', '', form.current, '')
+            .then((result) => {
+
+                Swal.fire({
+                    position: 'top-center',
+                    icon: 'success',
+                    title: 'You Message is send successfully Thank You!!',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+                e.target.reset(form);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
         <>
             <Helmet>
                 <title>Contact -Madras Spice</title>
             </Helmet>
-            <div className='contactPage lg:h-[700px]'>
 
-                <div className='container   mx-auto '>
-                    <div className='mx-auto lg:border-b-2 border-black lg:w-[500px] rounded-[10px]' data-aos="fade-left"
-                        data-aos-delay="50"
-                        data-aos-duration="1000"
-                        data-aos-mirror="false"
-                        data-aos-once="true">
-                        <div className='py-5 lg:py-0' >
-                            <h1 className='text-center text-[28px] lg:text-[45px] font-semibold text-white lg:text-black lg:mt-[200px]'>CONTACT US</h1>
-                            <p className='lg:text-center font-light text-white lg:text-black text-center '>Experience the flavors of Madras at Madras Spice</p>
-                        </div>
-                    </div>
-
-
-                </div>
-
-
-            </div>
 
             <div className='map '>
+
+
+
+
+
+
                 <div className='  container mx-auto'>
                     <h1 data-aos="fade-left"
                         data-aos-delay="50"
@@ -49,7 +62,7 @@ const Contact = () => {
                         data-aos-once="true" className='text-lg text-amber-200 text-center'>SEND US A MASSEGE</p>
 
 
-                    <form data-aos="fade-right"
+                    <form ref={form} onSubmit={sendEmail} data-aos="fade-right"
                         data-aos-delay="50"
                         data-aos-duration="1000"
                         data-aos-mirror="false"
@@ -57,20 +70,20 @@ const Contact = () => {
                         className='lg:w-[700px] mx-auto mt-[20px]'>
                         <div className='  '>
                             <p className='text-lg font-medium text-amber-200'>Name<span className='text-[#fa6e3a]'>*</span></p>
-                            <input type="text" placeholder='Enter your name' className='border-[2px] w-full rounded-[4px] h-[48px] px-3 mt-[10px] ' name="" id="" />
+                            <input type="text" name='user_name' required placeholder='Enter your name' className='border-[2px] w-full rounded-[4px] h-[48px] px-3 mt-[10px] ' id="" />
                         </div>
                         <div className=' my-[20px] '>
                             <p className='text-lg font-medium text-amber-200'>Email<span className='text-[#fa6e3a]'>*</span></p>
-                            <input type="email" placeholder='Enter your email' className='border-[2px] w-full rounded-[4px] h-[48px] px-3 mt-[10px] ' name="" id="" />
+                            <input type="email" required placeholder='Enter your email' className='border-[2px] w-full rounded-[4px] h-[48px] px-3 mt-[10px] ' name='user_email' id="" />
                         </div>
                         <div className='  '>
                             <p className='text-lg font-medium text-amber-200'>Subject<span className='text-[#fa6e3a]'>*</span></p>
-                            <input type="text" placeholder='Write Subject' className='border-[2px] w-full rounded-[4px] h-[48px] px-3 mt-[10px] ' name="" id="" />
+                            <input type="text" required placeholder='Write Subject' className='border-[2px] w-full rounded-[4px] h-[48px] px-3 mt-[10px] ' name='user_sub' id="" />
                         </div>
 
                         <div className=' mt-[20px] '>
                             <p className='text-lg font-medium text-amber-200'>Your message <span className='text-white'>(optional)</span></p>
-                            <textarea type="text" placeholder='Write Subject' className='border-[2px] h-[80px] w-full rounded-[4px] px-3 pt-[10px] mt-[10px]' name="" id="" />
+                            <textarea type="text" placeholder='Write Subject' className='border-[2px] h-[80px] w-full rounded-[4px] px-3 pt-[10px] mt-[10px]' name='user_message' id="" />
                         </div>
 
                         <div data-aos="zoom-in"
