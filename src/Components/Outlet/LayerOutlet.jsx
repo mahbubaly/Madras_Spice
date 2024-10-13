@@ -29,15 +29,16 @@ const LayerOutlet = () => {
 
                 <ScrollToTop
                     smooth
+
                     width='24px'
                     color='#fde68a'
-                   
-                    className='flex justify-center  items-center  '
+
+                    className='flex justify-center  items-center   '
                     style={{
                         background: 'black',
                         animation: ' 1.2 linear infinite alternate-reverse',
-                        
-                   
+
+
 
 
                     }}

@@ -1,30 +1,66 @@
 import React, { useState } from 'react';
-import { FaBars, FaCross, FaShoppingCart, FaTimes, } from 'react-icons/fa';
+import { FaBars, FaTimes, } from 'react-icons/fa';
 import { MdCancel } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import '../SharedPages/Style.css'
 import { Badge, Box, Modal, Typography } from '@mui/material';
-import cartImg from '../../assets/Images/chrismas.jpg'
-import cartImg2 from '../../assets/Images/offer2.jpg'
+import cartImg from '../../assets/Images/1.png'
+import cartImg2 from '../../assets/Images/2.png'
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+
+// import required modules
+import { Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 
 
 const style = {
     position: 'absolute',
-    top: '50%',
-    left: '35%',
-    transform: 'translate(-50%, -50%)',
-    borderRadius: 2,
 
     '@media (min-width: 320px)': {
-        width: 200, // Adjust width for small tablets
+        width: '320px',
 
+        top: '0%',
+        left: '0%',
     },
-    '@media (min-width: 720px)': {
-        width: 400, // Adjust width for small tablets
 
+
+    '@media (min-width: 375px)': {
+        width: '375px',
+
+
+        top: '0%',
+        left: '0%',
     },
+
+    // Medium mobile (425px)
+    '@media (min-width: 425px)': {
+        width: '425px',
+        top: '0%',
+        left: '0%',
+    },
+
+    // Small tablets (640px)
+    '@media (min-width: 640px)': {
+        width: 400,
+        top: '50%',
+        left: '35%',
+    },
+
+    // Tablets (768px)
+    '@media (min-width: 768px)': {
+        top: '55%',
+        left: '33%',
+        transform: 'translate(-50%, -50%)',
+        borderRadius: '2px',
+    },
+
+
+
 };
 
 const Navbar = () => {
@@ -35,6 +71,7 @@ const Navbar = () => {
     const handleOpen = () => setOpenTwo(false);
 
     const handleCloseTwo = () => setOpenTwo(false);
+
 
 
     const navbar = <>
@@ -92,12 +129,15 @@ const Navbar = () => {
     </>
 
     const [open, setOpen] = useState(false);
+
+    const pagination = {
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+    };
     return (
         <>
-
-
-
-
 
 
             <div className='bgBannerImg_1'>
@@ -125,7 +165,7 @@ const Navbar = () => {
                             </div>
 
                             {/* //For pop up function which show occasional things: */}
-                            <Badge
+                            <Badge className=""
                                 onClick={handleOpen}
                             >
 
@@ -134,15 +174,16 @@ const Navbar = () => {
 
 
                             <Modal
-                                onClick={handleCloseTwo}
+                                className=' '
+
                                 open={openTwo}
                                 aria-labelledby="modal-modal-title"
                                 aria-describedby="modal-modal-description"
                             >
-                                <Box sx={style}>
+                                <Box sx={style} className='mt-[25px] sm:mt-0' >
 
                                     <Typography id="modal-modal-title" variant="h6" component="h2">
-                                        <div onClick={handleCloseTwo} className='flex justify-end absolute md:-top-[15px] md:-right-[105%]'>
+                                        <div onClick={handleCloseTwo} className='flex justify-end absolute top-[5px] z-40 right-0 md:-top-[15px]  md:-right-[105%]'>
 
                                             <MdCancel className='text-[32px] text-[white] relative -top-2 md:-top-[10px]' />
 
@@ -151,16 +192,29 @@ const Navbar = () => {
 
 
                                     </Typography>
-                                    <Typography id="modal-modal-description" className='mt-2'>
-                                        <div className='md:flex mx-auto'>
+                                    <Typography id="modal-modal-description" className='mt-2 '>
+                                        <div className='md:flex hidden mx-auto'>
                                             <img src={cartImg} />
                                             <img src={cartImg2} />
                                         </div>
 
                                     </Typography>
+
+                                    <div className='md:hidden block'>
+                                        <Typography className=''>
+                                            <Swiper
+                                                pagination={pagination}
+                                                modules={[Pagination]}
+                                                className="mySwiper "
+                                            >
+                                                <SwiperSlide>    <img src={cartImg} className='cartImage1' /></SwiperSlide>
+                                                <SwiperSlide>    <img src={cartImg2} className='cartImage2 ' /></SwiperSlide>
+
+                                            </Swiper>
+                                        </Typography>
+                                    </div>
                                 </Box>
                             </Modal>
-
 
 
 

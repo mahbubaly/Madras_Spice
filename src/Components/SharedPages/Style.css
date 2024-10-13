@@ -9,7 +9,7 @@
 
 
 .custom-btn {
-  
+
     color: #fff;
     border-radius: 5px;
     padding: 10px 25px;
@@ -244,7 +244,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
 
@@ -253,7 +253,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
 
@@ -262,7 +262,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
 
@@ -271,7 +271,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
 
@@ -280,7 +280,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
 
@@ -289,7 +289,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
 
@@ -298,114 +298,126 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
+
 .bgBannerImg_1 {
     background-image: url(../../assets/Images/bg33.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
+
 .PerfectImgBanner_2 {
     background-image: url(../../assets/Images/bg44.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
+
 .bg_popularSection {
     background-image: url(../../assets/Images/bg99.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
+
 .BgNavbar {
     background-image: url(../../assets/Images/bg55.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
+
 .MenuResBg {
     background-image: url(../../assets/Images/43362.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
+
 .bgSimplySection {
     background-image: url(../../assets/Images/bbImg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+
 
 }
+
 .menuBg {
     background-image: url(../../assets/Images/menu.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
-   
+
+
 
 }
+
 .menuTastyFood {
     background-image: url(../../assets/Images/cuisine-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    
-   
+
+
 
 }
+
 .MainMenu {
     background-image: url(../../assets/Images/menuBg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  
-    
-   
+
+
+
 
 }
+
 .BiryaniMenu {
     background-image: url(../../assets/Images/bir2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
-    
-   
+
+
+
 
 }
+
 .ChatBg {
     background-image: url(../../assets/Images/chatni2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
-    
-   
+
+
+
 
 }
+
 .ChatBg2 {
     background-image: url(../../assets/Images/food12.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
-    
-   
+
+
+
 
 }
 
@@ -415,8 +427,8 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    
-   
+
+
 
 }
 
@@ -426,48 +438,52 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    
-   
+
+
 
 }
+
 .aboutUsBG {
     background-image: url(../../assets/Images/happy_waiter.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    
-   
+
+
 
 }
+
 .choiceUs {
     background-image: url(../../assets/Images/choiceUs.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    
-   
+
+
 
 }
+
 .aboutChef {
     background-image: url(../../assets/Images/chef3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    
-   
+
+
 
 }
+
 .resView {
     background-image: url(../../assets/Images/resbg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    
-   
+
+
 
 }
 
@@ -489,17 +505,30 @@
         padding: 20px;
 
     }
-    .popularDish{
+
+    .popularDish {
         width: 250px;
     }
-    .MarginLeft{
+
+    .MarginLeft {
         margin-left: 20px;
-    
+
     }
-    
+
 
     .mobile_gap {
         gap: 165px;
+    }
+
+    .cartImage2 {
+        width: 320px;
+        height: 100%;
+    }
+
+    .cartImage1 {
+        width: 320px;
+        height: 100%;
+
     }
 }
 
@@ -508,17 +537,29 @@
         max-width: 375px;
 
     }
-    .MarginLeft{
+
+    .MarginLeft {
         margin-left: 30px;
-    
+
     }
 
-    .popularDish{
+    .popularDish {
         width: 320px;
     }
 
     .mobile_gap {
         gap: 200px;
+    }
+
+    .cartImage2 {
+        width: 375px;
+        height: 100%;
+    }
+
+    .cartImage1 {
+        width: 375px;
+        height: 100%;
+
     }
 }
 
@@ -527,13 +568,25 @@
         max-width: 425px;
 
     }
-    .MarginLeft{
+
+    .MarginLeft {
         margin-left: 50px;
-    
+
     }
 
     .mobile_gap {
         gap: 250px;
+    }
+
+    .cartImage2 {
+        width: 425px;
+        height: 100%;
+    }
+
+    .cartImage1 {
+        width: 425px;
+        height: 100%;
+
     }
 }
 
@@ -591,4 +644,66 @@
     .container {
         max-width: 1536px;
     }
+}
+
+.myswiper {
+    width: 100%;
+    height: auto;
+    /* Adjust the height based on content */
+    position: relative;
+    /* Ensure pagination can be positioned */
+}
+
+.myswiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.myswiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style for swiper pagination bullets */
+.myswiper2-pagination-bullet {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    /* Center text vertically */
+    font-size: 16px;
+    color: #fff;
+    background-color: #cccccc;
+    /* Light gray for inactive bullets */
+    border-radius: 50%;
+    /* Make it circular */
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    bottom: 0;
+    /* Place below the swiper content */
+}
+
+/* Style for active pagination bullet */
+.myswiper2-pagination-bullet-active {
+    background-color: #007aff;
+    /* Blue color for active bullet */
+    color: #ffffff;
+    /* Keep the number white for active bullet */
+    font-weight: bold;
+}
+
+/* Adjust pagination container */
+.myswiper2-pagination {
+    position: absolute;
+    bottom: -20px;
+    /* Position the pagination bullets below the image section */
+    width: 100%;
+    text-align: center;
 }

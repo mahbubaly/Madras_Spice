@@ -10,7 +10,7 @@ const Home = () => {
         <>
             <div>
                 <Helmet>
-                    <title>Home -Madras Spice</title>
+                    <title>Home-Madras Spice</title>
                 </Helmet>
 
 
